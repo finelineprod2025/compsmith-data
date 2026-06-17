@@ -197,10 +197,7 @@
       "animate text",
       "per-character",
       "text opacity animator",
-      "text scale animator",
-      "range selector",
-      "adbe text selectors",
-      "adbe text selector"
+      "text scale animator"
     ],
     "_description": "Text layer property access rules",
     "rules": [
@@ -221,15 +218,6 @@
         "error": "After Effects error: Can not add a property with name “ADBE Text Position” to this PropertyGroup.",
         "note": "Text animator Position and Scale use the 3D match names 'ADBE Text Position 3D' and 'ADBE Text Scale 3D' (3-component values), while Opacity is 'ADBE Text Opacity'. The bare 'ADBE Text Position' / 'ADBE Text Scale' names are invalid for addProperty and throw. Verify availability with canAddProperty() before adding.",
         "source": "admin-approved:2026-06-13"
-      },
-      {
-        "id": "explicitly-create-text-range-selector",
-        "title": "Create the text range selector",
-        "wrong": "The script assumed that adding a text animator automatically created a first Range Selector and immediately called selectors.property(1).",
-        "right": "After creating the animator, get ADBE Text Selectors and explicitly add ADBE Text Selector. Only then retrieve ADBE Text Percent Start, End, Offset, or other selector properties, with null guards at every step.",
-        "error": "The range has no values",
-        "note": "Never assume a selector exists. Create it explicitly and verify selectors.numProperties before accessing it.",
-        "source": "admin-approved:2026-06-17"
       }
     ]
   },
@@ -379,7 +367,11 @@
       "current comp",
       "open a comp",
       "openinviewer",
-      "no active composition"
+      "no active composition",
+      "property()",
+      "null guard",
+      "intermediate property",
+      "typeerror"
     ],
     "_description": "General null-guard patterns for AE property access",
     "rules": [
@@ -409,6 +401,15 @@
         "error": "Open a comp first.",
         "note": "app.project.activeItem is null when no comp is open and can be a FolderItem/FootageItem when a non-comp item is selected in the Project panel; always check `instanceof CompItem` before accessing comp-specific members like .layers.",
         "source": "admin-approved:2026-06-08"
+      },
+      {
+        "id": "guard-every-ae-property-lookup",
+        "title": "Guard every property lookup",
+        "wrong": "The script chained property() calls or called methods on an intermediate AE property without first confirming that the intermediate object existed.",
+        "right": "Store every property-group lookup in its own variable, test it for null, and only then request the child property or call setValue, addProperty, or animation methods.",
+        "error": "chains AE property() lookups without null-guarding",
+        "note": "Generate stepwise AE property access such as group = layer.property(...); if(group){ child = group.property(...); } instead of layer.property(...).property(...).",
+        "source": "admin-approved:2026-06-17"
       }
     ]
   },
