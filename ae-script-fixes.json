@@ -368,10 +368,13 @@
       "open a comp",
       "openinviewer",
       "no active composition",
-      "null is not an object",
-      "property()",
-      "null guard",
-      "intermediate property"
+      "propertygroup",
+      "matchname",
+      "access property",
+      "get property",
+      "layer property",
+      "effect property",
+      "chained access"
     ],
     "_description": "General null-guard patterns for AE property access",
     "rules": [
@@ -403,12 +406,12 @@
         "source": "admin-approved:2026-06-08"
       },
       {
-        "id": "guard-every-ae-property-lookup",
-        "title": "Guard every property lookup",
-        "wrong": "The script chained property() lookups or called a method on an AE object that could be null without checking the intermediate result first.",
-        "right": "Store each AE property group, child property, effect, layer lookup, and addProperty result in a separate variable. Confirm it exists before requesting children or calling setValue, setValueAtTime, addProperty, or animation methods.",
-        "error": "null is not an object",
-        "note": "Use stepwise lookups and explicit guards throughout the script. Never generate layer.property(...).property(...) or call a method on an unchecked lookup result.",
+        "id": "no-chained-property-lookups",
+        "title": "Always null-guard intermediate property() results before chaining",
+        "wrong": "var opacity = layer.property(\"Transform\").property(\"Opacity\").value;",
+        "right": "var transform = layer.property(\"Transform\");\nif (!transform) return;\nvar opacity = transform.property(\"Opacity\");\nif (!opacity) return;\nvar opacityValue = opacity.value;",
+        "error": "Safety preflight blocked this script because it chains AE property() lookups without null-guarding the intermediate result, which commonly causes ",
+        "note": "In ExtendScript ES3, property() can return null if the match name doesn't exist or the structure differs. Always store intermediate property group results in variables and null-check before accessing nested properties. This prevents crashes when layer types or effect structures vary.",
         "source": "admin-approved:2026-06-17"
       }
     ]
