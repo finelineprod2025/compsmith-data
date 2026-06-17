@@ -367,11 +367,7 @@
       "current comp",
       "open a comp",
       "openinviewer",
-      "no active composition",
-      "property()",
-      "null guard",
-      "intermediate property",
-      "typeerror"
+      "no active composition"
     ],
     "_description": "General null-guard patterns for AE property access",
     "rules": [
@@ -401,15 +397,6 @@
         "error": "Open a comp first.",
         "note": "app.project.activeItem is null when no comp is open and can be a FolderItem/FootageItem when a non-comp item is selected in the Project panel; always check `instanceof CompItem` before accessing comp-specific members like .layers.",
         "source": "admin-approved:2026-06-08"
-      },
-      {
-        "id": "guard-every-ae-property-lookup",
-        "title": "Guard every property lookup",
-        "wrong": "The script chained property() calls or called methods on an intermediate AE property without first confirming that the intermediate object existed.",
-        "right": "Store every property-group lookup in its own variable, test it for null, and only then request the child property or call setValue, addProperty, or animation methods.",
-        "error": "chains AE property() lookups without null-guarding",
-        "note": "Generate stepwise AE property access such as group = layer.property(...); if(group){ child = group.property(...); } instead of layer.property(...).property(...).",
-        "source": "admin-approved:2026-06-17"
       }
     ]
   },
@@ -428,7 +415,10 @@
       "title card",
       "name and title",
       "broadcast graphics",
-      "uhd comp"
+      "uhd comp",
+      "truncated script",
+      "incomplete output",
+      "iife"
     ],
     "_description": "Rules about how the AI must format its code output",
     "_always_inject": true,
@@ -468,6 +458,15 @@
         "error": "Script returned no result. Make sure After Effects is open.",
         "note": "The IIFE was never closed and no string was returned, so the host saw no result. Every code path (success, guard, and catch) must return a complete JSON.stringify(...) string, and the function must end with })(); — ES3 has no template literals, so build messages with normal string concatenation and properly escaped quotes.",
         "source": "admin-approved:2026-06-09"
+      },
+      {
+        "id": "emit-complete-executable-iife-with-result",
+        "title": "Return a complete executable script",
+        "wrong": "The generated script was truncated or syntactically incomplete, often ending inside an escaped string, so the IIFE never completed and returned a result.",
+        "right": "Emit one complete ExtendScript IIFE with balanced quotes, braces, parentheses, and comments. The final evaluated expression must be the IIFE call, and every success, validation, and catch path must return JSON.stringify(...).",
+        "error": "Script returned no result",
+        "note": "Before returning code, verify that it is not cut off, has balanced delimiters, contains the closing })(), and produces a string result on every execution path.",
+        "source": "admin-approved:2026-06-17"
       }
     ]
   },
