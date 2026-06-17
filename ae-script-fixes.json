@@ -1,7 +1,7 @@
 {
   "_comment": "CompSmith AE script error knowledge base. Categories are injected selectively based on the user request keywords. Add new entries after reproducing and fixing the error in AE.",
   "_updated": "2026-06",
-  "_version": 26,
+  "_version": 27,
   "_categories": [
     "colors",
     "shape_layers",
@@ -432,7 +432,14 @@
     ]
   },
   "general": {
-    "_keywords": [],
+    "_keywords": [
+      "seamless loop",
+      "bird scene",
+      "controlled mode",
+      "multi-step script",
+      "complex animation",
+      "camera parallax"
+    ],
     "_description": "Universal IIFE structure and return value rules",
     "rules": [
       {
@@ -461,6 +468,15 @@
         "error": "diag error entry",
         "note": "A script consisting only of a comment performs no work and provides no diagnostics, so it appears to fail with no meaningful output. Always emit a full, self-contained script with an undo group and a guard that the active item is a CompItem.",
         "source": "admin-approved:2026-06-08"
+      },
+      {
+        "id": "close-iife-and-return-result",
+        "title": "Always close the IIFE, try/catch, and return a final JSON result string",
+        "wrong": "(function(){\n  var n=0;\n  try{\n    if(!app.project) return JSON.stringify({success:false,message:\"No project open.\\\n    // ... script truncated, no closing of string/try/function",
+        "right": "(function(){\n  try{\n    if(!app.project) return JSON.stringify({success:false,message:\"No project open.\"});\n    // ... build comp/layers ...\n    return JSON.stringify({success:true,message:\"Done.\"});\n  }catch(e){\n    return JSON.stringify({success:false,message:String(e)});\n  }\n})();",
+        "error": "Script returned no result — diagnosing…",
+        "note": "The script was truncated mid-string (an unterminated string literal inside JSON.stringify), so the function body, try/catch, and IIFE were never closed and nothing was returned. Always emit a complete, balanced IIFE that ends with `})();`, close every string and brace, and guarantee a `return JSON.stringify(...)` on every path (including the catch) so AE receives a result.",
+        "source": "admin-approved:2026-06-17"
       }
     ],
     "_always_inject": true
