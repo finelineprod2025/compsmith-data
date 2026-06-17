@@ -1,7 +1,7 @@
 {
   "_comment": "CompSmith AE script error knowledge base. Categories are injected selectively based on the user request keywords. Add new entries after reproducing and fixing the error in AE.",
   "_updated": "2026-06",
-  "_version": 28,
+  "_version": 29,
   "_categories": [
     "colors",
     "shape_layers",
@@ -91,7 +91,10 @@
       "vectors group",
       "nested group",
       "subgroup",
-      "group contents"
+      "group contents",
+      "maskshape",
+      "mask path",
+      "adbe mask shape"
     ],
     "_description": "Shape layer creation and property access rules",
     "rules": [
@@ -166,6 +169,15 @@
         "error": "ReferenceError: Object is invalid",
         "note": "A new 'ADBE Vector Group' returns valid, but its child contents container must be fetched via property(\"ADBE Vectors Group\") before adding shapes; calling addProperty/property on an undefined or already-invalidated group reference throws 'Object is invalid'. Always null-check each intermediate group/contents reference and never reuse a reference after the object's parent has been re-added or moved.",
         "source": "admin-approved:2026-06-13"
+      },
+      {
+        "id": "use-shape-for-mask-paths",
+        "title": "Use Shape for mask paths",
+        "wrong": "The script instantiated a mask path with new MaskShape(), but ExtendScript does not expose MaskShape as a constructible object.",
+        "right": "Create mask geometry with var shape = new Shape(); assign vertices, inTangents, outTangents, and closed, then set it on the ADBE Mask Shape property.",
+        "error": "MaskShape does not have a constructor",
+        "note": "Always use new Shape() for both mask paths and custom shape-path values; never generate new MaskShape().",
+        "source": "admin-approved:2026-06-17"
       }
     ]
   },
