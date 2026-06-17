@@ -1,7 +1,7 @@
 {
   "_comment": "CompSmith AE script error knowledge base. Categories are injected selectively based on the user request keywords. Add new entries after reproducing and fixing the error in AE.",
   "_updated": "2026-06",
-  "_version": 30,
+  "_version": 31,
   "_categories": [
     "colors",
     "shape_layers",
@@ -367,7 +367,11 @@
       "current comp",
       "open a comp",
       "openinviewer",
-      "no active composition"
+      "no active composition",
+      "null is not an object",
+      "property()",
+      "null guard",
+      "intermediate property"
     ],
     "_description": "General null-guard patterns for AE property access",
     "rules": [
@@ -397,6 +401,15 @@
         "error": "Open a comp first.",
         "note": "app.project.activeItem is null when no comp is open and can be a FolderItem/FootageItem when a non-comp item is selected in the Project panel; always check `instanceof CompItem` before accessing comp-specific members like .layers.",
         "source": "admin-approved:2026-06-08"
+      },
+      {
+        "id": "guard-every-ae-property-lookup",
+        "title": "Guard every property lookup",
+        "wrong": "The script chained property() lookups or called a method on an AE object that could be null without checking the intermediate result first.",
+        "right": "Store each AE property group, child property, effect, layer lookup, and addProperty result in a separate variable. Confirm it exists before requesting children or calling setValue, setValueAtTime, addProperty, or animation methods.",
+        "error": "null is not an object",
+        "note": "Use stepwise lookups and explicit guards throughout the script. Never generate layer.property(...).property(...) or call a method on an unchecked lookup result.",
+        "source": "admin-approved:2026-06-17"
       }
     ]
   },
