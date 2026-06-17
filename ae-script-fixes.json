@@ -1,7 +1,7 @@
 {
   "_comment": "CompSmith AE script error knowledge base. Categories are injected selectively based on the user request keywords. Add new entries after reproducing and fixing the error in AE.",
   "_updated": "2026-06",
-  "_version": 27,
+  "_version": 28,
   "_categories": [
     "colors",
     "shape_layers",
@@ -438,7 +438,13 @@
       "controlled mode",
       "multi-step script",
       "complex animation",
-      "camera parallax"
+      "camera parallax",
+      "open comp",
+      "vertical comp",
+      "fps",
+      "frame rate",
+      "create composition",
+      "new comp"
     ],
     "_description": "Universal IIFE structure and return value rules",
     "rules": [
@@ -476,6 +482,15 @@
         "right": "(function(){\n  try{\n    if(!app.project) return JSON.stringify({success:false,message:\"No project open.\"});\n    // ... build comp/layers ...\n    return JSON.stringify({success:true,message:\"Done.\"});\n  }catch(e){\n    return JSON.stringify({success:false,message:String(e)});\n  }\n})();",
         "error": "Script returned no result — diagnosing…",
         "note": "The script was truncated mid-string (an unterminated string literal inside JSON.stringify), so the function body, try/catch, and IIFE were never closed and nothing was returned. Always emit a complete, balanced IIFE that ends with `})();`, close every string and brace, and guarantee a `return JSON.stringify(...)` on every path (including the catch) so AE receives a result.",
+        "source": "admin-approved:2026-06-17"
+      },
+      {
+        "id": "complete-iife-return-json",
+        "title": "Always close the IIFE and return a JSON string result",
+        "wrong": "(function(){\n  var n=0;\n  try{\n    if(!app.project) return JSON.stringify({success:false,message:\"No project open.\\",
+        "right": "(function(){\n  try{\n    if(!app.project){ return JSON.stringify({success:false,message:\"No project open.\"}); }\n    var comp = app.project.items.addComp(\"Vertical\", 1080, 1920, 1, 10, 25);\n    comp.openInViewer();\n    return JSON.stringify({success:true,message:\"Created vertical comp at 25fps.\"});\n  }catch(e){\n    return JSON.stringify({success:false,message:String(e)});\n  }\n})();",
+        "error": "Script returned no result — diagnosing…",
+        "note": "The generated code was truncated: an unterminated string literal and a missing closing of the try/catch and IIFE mean nothing is ever returned. Always emit a syntactically complete script that ends with a return of a JSON.stringify(...) result inside a closed (function(){ ... })(); wrapper, and properly terminate every string.",
         "source": "admin-approved:2026-06-17"
       }
     ],
