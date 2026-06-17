@@ -1,7 +1,7 @@
 {
   "_comment": "CompSmith AE script error knowledge base. Categories are injected selectively based on the user request keywords. Add new entries after reproducing and fixing the error in AE.",
   "_updated": "2026-06",
-  "_version": 29,
+  "_version": 30,
   "_categories": [
     "colors",
     "shape_layers",
@@ -251,7 +251,9 @@
       "settemporaleaseatkey",
       "kinetic",
       "scale pop",
-      "temporal ease"
+      "temporal ease",
+      "keyframeease",
+      "property dimensions"
     ],
     "_description": "Transform group property access rules",
     "rules": [
@@ -289,6 +291,15 @@
         "right": "var sc = tr.property(\"ADBE Scale\");\nvar dims = sc.value.length; // 2 for 2D scale, 3 for 3D\nvar inE = [], outE = [];\nfor (var d = 0; d < dims; d++){ inE.push(new KeyframeEase(0.5, 33.33)); outE.push(new KeyframeEase(0.5, 66.67)); }\nsc.setTemporalEaseAtKey(1, inE, outE);",
         "error": "After Effects error: Unable to call “setTemporalEaseAtKey” because of parameter 2. Value array does not have 3 elements.",
         "note": "The in/out ease arrays passed to setTemporalEaseAtKey must contain one KeyframeEase per spatial/value dimension of the property (1 for 1D like Rotation, 2 for 2D Scale/Position, 3 when 3D is enabled). Derive the count from property.value.length so it stays correct whether the layer is 2D or 3D.",
+        "source": "admin-approved:2026-06-17"
+      },
+      {
+        "id": "match-temporal-ease-array-to-property-dimensions",
+        "title": "Match ease arrays to property dimensions",
+        "wrong": "The script hard-coded the number of KeyframeEase objects instead of matching the animated property's actual dimensionality.",
+        "right": "Determine the required ease-array length from the property's current value. Use value.length for multidimensional properties and 1 for scalar properties, then build input and output arrays with exactly that many KeyframeEase objects.",
+        "error": "Value array does not have 3 elements",
+        "note": "Before calling setTemporalEaseAtKey(), derive the dimension count dynamically so 1D, 2D, separated, and 3D properties receive valid arrays.",
         "source": "admin-approved:2026-06-17"
       }
     ]
