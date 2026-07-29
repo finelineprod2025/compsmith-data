@@ -267,7 +267,7 @@
       "google/gemini-3.5-flash",
       "google/gemini-3.5-flash-medium",
       "qwen/qwen3.7-flash",
-      "qwen/qwen3.6-35b-a3b",
+      "google/gemini-2.5-pro",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-30b-a3b-instruct-2507",
       "qwen/qwen3-coder-30b-a3b-instruct"
@@ -278,7 +278,6 @@
       "google/gemini-2.5-flash-lite",
       "openai/gpt-5-nano:batch",
       "openai/gpt-5-nano",
-      "qwen/qwen3.6-35b-a3b",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-coder-30b-a3b-instruct",
       "qwen/qwen3-30b-a3b-instruct-2507",
@@ -286,7 +285,8 @@
       "qwen/qwen3.5-9b",
       "mistralai/mistral-small-3.2-24b-instruct",
       "meta-llama/llama-3.3-70b-instruct",
-      "mistralai/mistral-small-24b-instruct-2501"
+      "mistralai/mistral-small-24b-instruct-2501",
+      "openai/gpt-oss-120b"
     ],
     "fast": [
       "google/gemini-2.5-flash-lite:batch",
@@ -302,34 +302,34 @@
     ]
   },
   "rank": {
-    "claude-opus-5-max": 1725,
+    "claude-opus-5-max": 1712,
     "kimi-k3-max": 1682,
-    "claude-opus-5-high": 1670,
-    "claude-fable-5": 1629,
+    "claude-opus-5-high": 1669,
+    "claude-fable-5": 1628,
     "gpt-5.6-sol-xhigh (codex-harness)": 1623,
-    "glm-5.2-max": 1587,
+    "glm-5.2-max": 1588,
     "claude-opus-4-8-thinking": 1568,
     "claude-opus-4-7": 1560,
-    "claude-opus-4-7-thinking": 1557,
+    "claude-opus-4-7-thinking": 1556,
     "grok-4.5": 1550,
     "claude-opus-4-6-thinking": 1546,
-    "claude-sonnet-5-high": 1545,
+    "claude-sonnet-5-high": 1544,
     "claude-opus-4-8": 1539,
     "claude-opus-4-6": 1538,
-    "muse-spark-1.1": 1537,
-    "seed-2.1-pro": 1528,
-    "gemini-3.6-flash": 1527,
-    "claude-sonnet-4-6": 1523,
+    "muse-spark-1.1": 1536,
+    "gemini-3.6-flash": 1528,
+    "seed-2.1-pro": 1527,
+    "claude-sonnet-4-6": 1524,
     "glm-5.1": 1518,
-    "hy3": 1518,
+    "hy3": 1517,
     "qwen3.7-max": 1517,
     "kimi-k2.6": 1510,
     "gpt-5.5-xhigh (codex-harness)": 1507,
     "claude-opus-4-5-20251101-thinking-32k": 1494,
-    "minimax-m3": 1493,
-    "gemini-3.5-flash": 1493,
+    "minimax-m3": 1494,
+    "gemini-3.5-flash": 1492,
+    "gemini-3.5-flash-medium": 1486,
     "gpt-5.5-high (codex-harness)": 1485,
-    "gemini-3.5-flash-medium": 1484,
     "qwen3.6-max": 1478,
     "mimo-v2.5-pro": 1474,
     "kimi-k2.7-code": 1473,
@@ -338,72 +338,20 @@
     "gpt-5.4-high (codex-harness)": 1462,
     "qwen3.6-plus": 1458,
     "gpt-5.5 (codex-harness)": 1455,
-    "gemini-3.5-flash-lite": 1453,
-    "deepseek-v4-pro": 1448,
+    "gemini-3.5-flash-lite": 1454,
+    "deepseek-v4-pro": 1447,
     "gemini-3.1-pro": 1446,
     "gpt-5.4-medium (codex-harness)": 1444,
-    "gemini-3-pro": 1438,
     "gemini-3-flash": 1438,
-    "mimo-v2.5": 1436,
+    "gemini-3-pro": 1438,
     "kimi-k2.5-thinking": 1436,
+    "mimo-v2.5": 1436,
     "glm-5": 1435,
     "glm-4.7": 1433,
     "mimo-v2-pro": 1433,
     "gpt-5.2": 1419,
     "gpt-5-medium": 1419,
-    "inkling": 1418,
-    "gpt-5.3-codex (codex-harness)": 1409,
-    "kimi-k2.5-instant": 1405,
-    "glm-5v-turbo": 1401,
-    "qwen3.5-397b-a17b": 1401,
-    "gpt-5.4-mini-high": 1399,
-    "minimax-m2.7": 1397,
-    "claude-sonnet-4-5-20250929-thinking-32k": 1392,
-    "gpt-5.1-medium": 1390,
-    "gpt-5.4": 1390,
-    "claude-opus-4-1": 1389,
-    "minimax-m2.1": 1388,
-    "minimax-m2.5": 1386,
-    "claude-sonnet-4-5": 1385,
-    "gemini-3-flash (thinking-minimal)": 1383,
-    "grok-4.20-beta-0309-reasoning": 1374,
-    "gemma-4-26b-a4b": 1366,
-    "gemma-4-31b": 1364,
-    "deepseek-v3.2-thinking": 1361,
-    "qwen3.5-122b-a10b": 1360,
-    "grok-4.3": 1358,
-    "qwen3.5-27b": 1358,
-    "hunyuan-hy3": 1357,
-    "laguna-m.1": 1349,
-    "gpt-5.1": 1341,
-    "glm-4.6": 1339,
-    "gpt-5.2-codex": 1338,
-    "gpt-5.1-codex": 1336,
-    "mimo-v2-flash (non-thinking)": 1331,
-    "claude-haiku-4-5": 1324,
-    "deepseek-v3.2": 1323,
-    "kimi-k2-thinking-turbo": 1322,
-    "laguna-xs.2": 1303,
-    "minimax-m2": 1297,
-    "mimo-v2-flash (thinking)": 1291,
-    "qwen3-coder-480b-a35b-instruct": 1272,
-    "mistral-medium-3.5": 1267,
-    "gemini-3.1-flash-lite": 1256,
-    "kat-coder-pro-v1": 1255,
-    "qwen3.5-35b-a3b": 1250,
-    "gpt-5.1-codex-mini": 1244,
-    "grok-4-1-fast-reasoning": 1240,
-    "trinity-large-thinking": 1239,
-    "qwen3.5-flash": 1238,
-    "mistral-large-3": 1230,
-    "gemini-2.5-pro": 1224,
-    "grok-4.1-thinking": 1210,
-    "granite-4.1-8b": 1194,
-    "devstral-2": 1194,
-    "mercury-2": 1166,
-    "grok-code-fast-1": 1163,
-    "grok-4-fast-reasoning": 1160,
-    "devstral-medium-2507": 1079
+    "inkling": 1417
   },
   "price": {
     "qwen3.7-flash": {
@@ -503,8 +451,8 @@
       "o": 12.5
     },
     "qwen3.7-max": {
-      "i": 1.25,
-      "o": 3.75
+      "i": 1.475,
+      "o": 4.425
     },
     "grok-build-0.1": {
       "i": 1.0,
@@ -555,8 +503,8 @@
       "o": 1.0
     },
     "qwen3.6-max": {
-      "i": 1.04,
-      "o": 6.24
+      "i": 1.027,
+      "o": 6.162
     },
     "qwen3.6-27b": {
       "i": 0.3,
@@ -595,8 +543,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.15,
-      "o": 0.45
+      "i": 0.07,
+      "o": 0.34
     },
     "gemma-4-31b-it": {
       "i": 0.14,
@@ -847,8 +795,8 @@
       "o": 2.4
     },
     "qwen3-vl-30b-a3b-instruct": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.13,
+      "o": 0.52
     },
     "gpt-5-pro": {
       "i": 15.0,
@@ -952,7 +900,7 @@
     },
     "gpt-oss-20b": {
       "i": 0.03,
-      "o": 0.14
+      "o": 0.13
     },
     "claude-opus-4.1": {
       "i": 15.0,
