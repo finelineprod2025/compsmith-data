@@ -295,10 +295,10 @@
       "openai/gpt-5-nano",
       "openai/gpt-4.1-nano",
       "qwen/qwen3.7-flash",
-      "meta-llama/llama-4-scout",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
-      "openai/gpt-oss-120b"
+      "openai/gpt-oss-120b",
+      "qwen/qwen3.5-flash-02-23"
     ]
   },
   "rank": {
@@ -319,7 +319,9 @@
     "muse-spark-1.1": 1536,
     "gemini-3.6-flash": 1528,
     "seed-2.1-pro": 1527,
+    "gpt-5.6-luna-xhigh (codex-harness)": 1525,
     "claude-sonnet-4-6": 1524,
+    "gpt-5.6-terra-xhigh (codex-harness)": 1522,
     "glm-5.1": 1518,
     "hy3": 1517,
     "qwen3.7-max": 1517,
@@ -349,63 +351,13 @@
     "glm-5": 1435,
     "glm-4.7": 1433,
     "mimo-v2-pro": 1433,
-    "gpt-5.2": 1419,
-    "gpt-5-medium": 1419,
-    "inkling": 1417,
-    "gpt-5.3-codex (codex-harness)": 1409,
-    "kimi-k2.5-instant": 1405,
-    "qwen3.5-397b-a17b": 1401,
-    "glm-5v-turbo": 1400,
-    "gpt-5.4-mini-high": 1399,
-    "minimax-m2.7": 1398,
-    "claude-sonnet-4-5-20250929-thinking-32k": 1392,
-    "gpt-5.1-medium": 1390,
-    "gpt-5.4": 1390,
-    "claude-opus-4-1": 1389,
-    "minimax-m2.1": 1388,
-    "minimax-m2.5": 1386,
-    "claude-sonnet-4-5": 1385,
-    "gemini-3-flash (thinking-minimal)": 1384,
-    "grok-4.20-beta-0309-reasoning": 1374,
-    "gemma-4-26b-a4b": 1366,
-    "gemma-4-31b": 1364,
-    "deepseek-v3.2-thinking": 1361,
-    "qwen3.5-122b-a10b": 1360,
-    "grok-4.3": 1358,
-    "qwen3.5-27b": 1357,
-    "hunyuan-hy3": 1357,
-    "laguna-m.1": 1349,
-    "gpt-5.1": 1341,
-    "glm-4.6": 1339,
-    "gpt-5.2-codex": 1338,
-    "gpt-5.1-codex": 1336,
-    "mimo-v2-flash (non-thinking)": 1331,
-    "claude-haiku-4-5": 1325,
-    "deepseek-v3.2": 1323,
-    "kimi-k2-thinking-turbo": 1322,
-    "laguna-xs.2": 1304,
-    "minimax-m2": 1297,
-    "mimo-v2-flash (thinking)": 1291,
-    "qwen3-coder-480b-a35b-instruct": 1272,
-    "mistral-medium-3.5": 1267,
-    "gemini-3.1-flash-lite": 1256,
-    "kat-coder-pro-v1": 1255,
-    "qwen3.5-35b-a3b": 1251,
-    "gpt-5.1-codex-mini": 1244,
-    "grok-4-1-fast-reasoning": 1240,
-    "trinity-large-thinking": 1239,
-    "qwen3.5-flash": 1238,
-    "mistral-large-3": 1230,
-    "gemini-2.5-pro": 1224,
-    "grok-4.1-thinking": 1210,
-    "granite-4.1-8b": 1195,
-    "devstral-2": 1194,
-    "mercury-2": 1166,
-    "grok-code-fast-1": 1163,
-    "grok-4-fast-reasoning": 1160,
-    "devstral-medium-2507": 1079
+    "gpt-5.2": 1419
   },
   "price": {
+    "deepseek-v4-flash-0731": {
+      "i": 0.14,
+      "o": 0.28
+    },
     "qwen3.7-flash": {
       "i": 0.03,
       "o": 0.13
@@ -439,20 +391,20 @@
       "o": 15.0
     },
     "gpt-5.6-luna-pro": {
-      "i": 0.5,
-      "o": 3.0
+      "i": 0.1,
+      "o": 0.6
     },
     "gpt-5.6-luna": {
-      "i": 0.5,
-      "o": 3.0
+      "i": 0.1,
+      "o": 0.6
     },
     "gpt-5.6-terra-pro": {
-      "i": 1.25,
-      "o": 7.5
+      "i": 1.0,
+      "o": 6.0
     },
     "gpt-5.6-terra": {
-      "i": 1.25,
-      "o": 7.5
+      "i": 1.0,
+      "o": 6.0
     },
     "gpt-5.6-sol-pro": {
       "i": 5.0,
@@ -583,8 +535,8 @@
       "o": 0.28
     },
     "kimi-k2.6": {
-      "i": 0.646,
-      "o": 2.72
+      "i": 0.95,
+      "o": 4.0
     },
     "claude-opus-4.7": {
       "i": 5.0,
@@ -834,14 +786,6 @@
       "i": 0.117,
       "o": 0.455
     },
-    "o3-deep-research": {
-      "i": 10.0,
-      "o": 40.0
-    },
-    "o4-mini-deep-research": {
-      "i": 2.0,
-      "o": 8.0
-    },
     "qwen3-vl-30b-a3b-thinking": {
       "i": 0.2,
       "o": 2.4
@@ -877,10 +821,6 @@
     "qwen3-coder-plus": {
       "i": 0.65,
       "o": 3.25
-    },
-    "gpt-5-codex": {
-      "i": 1.25,
-      "o": 10.0
     },
     "deepseek-v3.1-terminus": {
       "i": 0.27,
@@ -975,8 +915,8 @@
       "o": 0.193
     },
     "qwen3-235b-a22b-thinking-2507": {
-      "i": 0.3,
-      "o": 3.0
+      "i": 0.23,
+      "o": 2.3
     },
     "qwen3-coder": {
       "i": 0.3,
