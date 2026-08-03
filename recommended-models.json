@@ -264,13 +264,13 @@
   "tiers": {
     "best": [
       "google/gemini-3.6-flash",
-      "google/gemini-3.5-flash",
-      "google/gemini-3.5-flash-medium",
       "deepseek/deepseek-v4-flash-0731",
       "qwen/qwen3.7-flash",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
-      "qwen/qwen3-235b-a22b-2507"
+      "qwen/qwen3-235b-a22b-2507",
+      "qwen/qwen3-next-80b-a3b-instruct",
+      "google/gemma-3-27b-it"
     ],
     "value": [
       "qwen/qwen3.7-flash",
@@ -278,7 +278,6 @@
       "openai/gpt-5-nano",
       "openai/gpt-4.1-nano",
       "deepseek/deepseek-v4-flash-0731",
-      "qwen/qwen3-235b-a22b-2507",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "mistralai/mistral-small-3.2-24b-instruct",
@@ -286,7 +285,8 @@
       "qwen/qwen3-32b",
       "openai/gpt-5.6-luna-pro",
       "openai/gpt-5.6-luna",
-      "meta-llama/llama-4-scout"
+      "meta-llama/llama-4-scout",
+      "qwen/qwen3.5-9b"
     ],
     "fast": [
       "google/gemini-2.5-flash-lite",
@@ -305,6 +305,7 @@
     "claude-opus-5-max": 1705,
     "kimi-k3-max": 1676,
     "claude-opus-5-high": 1669,
+    "qwen3.8-max": 1668,
     "claude-fable-5": 1630,
     "gpt-5.6-sol-xhigh (codex-harness)": 1620,
     "glm-5.2-max": 1586,
@@ -320,93 +321,7 @@
     "muse-spark-1.1": 1536,
     "gemini-3.6-flash": 1533,
     "seed-2.1-pro": 1527,
-    "gpt-5.6-luna-xhigh (codex-harness)": 1523,
-    "claude-sonnet-4-6": 1523,
-    "gpt-5.6-terra-xhigh (codex-harness)": 1522,
-    "qwen3.7-max": 1517,
-    "hy3": 1517,
-    "glm-5.1": 1516,
-    "kimi-k2.6": 1510,
-    "gpt-5.5-xhigh (codex-harness)": 1509,
-    "claude-opus-4-5-20251101-thinking-32k": 1494,
-    "gemini-3.5-flash": 1492,
-    "minimax-m3": 1491,
-    "gemini-3.5-flash-medium": 1486,
-    "gpt-5.5-high (codex-harness)": 1485,
-    "qwen3.6-max": 1478,
-    "mimo-v2.5-pro": 1474,
-    "kimi-k2.7-code": 1473,
-    "claude-opus-4-5": 1467,
-    "deepseek-v4-pro-high": 1464,
-    "gpt-5.4-high (codex-harness)": 1462,
-    "qwen3.6-plus": 1458,
-    "gpt-5.5 (codex-harness)": 1458,
-    "gemini-3.5-flash-lite": 1452,
-    "gemini-3.1-pro": 1447,
-    "deepseek-v4-pro": 1446,
-    "gpt-5.4-medium (codex-harness)": 1444,
-    "gemini-3-pro": 1438,
-    "gemini-3-flash": 1438,
-    "kimi-k2.5-thinking": 1436,
-    "mimo-v2.5": 1435,
-    "glm-5": 1435,
-    "glm-4.7": 1433,
-    "mimo-v2-pro": 1433,
-    "gpt-5.2": 1419,
-    "gpt-5-medium": 1419,
-    "inkling": 1411,
-    "gpt-5.3-codex (codex-harness)": 1409,
-    "kimi-k2.5-instant": 1405,
-    "qwen3.5-397b-a17b": 1400,
-    "glm-5v-turbo": 1399,
-    "gpt-5.4-mini-high": 1399,
-    "minimax-m2.7": 1398,
-    "claude-sonnet-4-5-20250929-thinking-32k": 1392,
-    "gpt-5.1-medium": 1390,
-    "gpt-5.4": 1389,
-    "claude-opus-4-1": 1389,
-    "minimax-m2.1": 1388,
-    "minimax-m2.5": 1386,
-    "claude-sonnet-4-5": 1385,
-    "gemini-3-flash (thinking-minimal)": 1383,
-    "grok-4.20-beta-0309-reasoning": 1374,
-    "gemma-4-26b-a4b": 1367,
-    "gemma-4-31b": 1363,
-    "deepseek-v3.2-thinking": 1361,
-    "qwen3.5-122b-a10b": 1360,
-    "qwen3.5-27b": 1358,
-    "grok-4.3": 1357,
-    "hunyuan-hy3": 1357,
-    "laguna-m.1": 1349,
-    "gpt-5.1": 1341,
-    "glm-4.6": 1339,
-    "gpt-5.2-codex": 1338,
-    "gpt-5.1-codex": 1336,
-    "mimo-v2-flash (non-thinking)": 1331,
-    "claude-haiku-4-5": 1325,
-    "deepseek-v3.2": 1323,
-    "kimi-k2-thinking-turbo": 1322,
-    "laguna-xs.2": 1304,
-    "minimax-m2": 1297,
-    "mimo-v2-flash (thinking)": 1291,
-    "qwen3-coder-480b-a35b-instruct": 1272,
-    "mistral-medium-3.5": 1267,
-    "gemini-3.1-flash-lite": 1256,
-    "kat-coder-pro-v1": 1255,
-    "qwen3.5-35b-a3b": 1250,
-    "gpt-5.1-codex-mini": 1244,
-    "grok-4-1-fast-reasoning": 1240,
-    "trinity-large-thinking": 1239,
-    "qwen3.5-flash": 1238,
-    "mistral-large-3": 1230,
-    "gemini-2.5-pro": 1224,
-    "grok-4.1-thinking": 1210,
-    "granite-4.1-8b": 1194,
-    "devstral-2": 1194,
-    "mercury-2": 1166,
-    "grok-code-fast-1": 1163,
-    "grok-4-fast-reasoning": 1160,
-    "devstral-medium-2507": 1079
+    "gpt-5.6-luna-xhigh (codex-harness)": 1523
   },
   "price": {
     "deepseek-v4-flash-0731": {
@@ -622,8 +537,8 @@
       "o": 1.56
     },
     "qwen3.5-122b-a10b": {
-      "i": 0.26,
-      "o": 2.08
+      "i": 0.4,
+      "o": 3.2
     },
     "qwen3.5-flash-02-23": {
       "i": 0.065,
@@ -774,8 +689,8 @@
       "o": 15.0
     },
     "qwen3-vl-235b-a22b-thinking": {
-      "i": 0.4,
-      "o": 4.0
+      "i": 0.98,
+      "o": 3.95
     },
     "qwen3-vl-235b-a22b-instruct": {
       "i": 0.21,
@@ -878,8 +793,8 @@
       "o": 0.4
     },
     "qwen3-235b-a22b-2507": {
-      "i": 0.09,
-      "o": 0.55
+      "i": 0.1495,
+      "o": 0.598
     },
     "kimi-k2": {
       "i": 0.57,
