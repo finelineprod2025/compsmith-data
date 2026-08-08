@@ -264,8 +264,8 @@
   "tiers": {
     "best": [
       "google/gemini-3.6-flash",
-      "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
+      "google/gemini-3.5-flash-high",
       "qwen/qwen3-next-80b-a3b-instruct",
       "google/gemma-4-31b-it",
       "qwen/qwen3-235b-a22b-2507",
@@ -277,7 +277,6 @@
       "google/gemma-4-26b-a4b-it:free",
       "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4-flash-0731",
-      "deepseek/deepseek-v4-flash",
       "openai/gpt-5-nano",
       "google/gemini-2.5-flash-lite:batch",
       "openai/gpt-4.1-nano:batch",
@@ -286,7 +285,8 @@
       "qwen/qwen3-32b",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
-      "mistralai/mistral-small-3.2-24b-instruct"
+      "mistralai/mistral-small-3.2-24b-instruct",
+      "qwen/qwen3-235b-a22b-2507"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -351,65 +351,7 @@
     "gemini-3-flash": 1438,
     "gemini-3-pro": 1438,
     "mimo-v2.5": 1437,
-    "kimi-k2.5-thinking": 1436,
-    "glm-5": 1435,
-    "glm-4.7": 1433,
-    "mimo-v2-pro": 1433,
-    "gpt-5.2": 1419,
-    "gpt-5-medium": 1419,
-    "inkling": 1410,
-    "gpt-5.3-codex (codex-harness)": 1409,
-    "kimi-k2.5-instant": 1405,
-    "qwen3.5-397b-a17b": 1400,
-    "glm-5v-turbo": 1399,
-    "gpt-5.4-mini-high": 1399,
-    "minimax-m2.7": 1398,
-    "gpt-5.4": 1393,
-    "claude-sonnet-4-5-20250929-thinking-32k": 1392,
-    "gpt-5.1-medium": 1390,
-    "claude-opus-4-1": 1389,
-    "minimax-m2.1": 1388,
-    "minimax-m2.5": 1386,
-    "claude-sonnet-4-5": 1385,
-    "gemini-3-flash (thinking-minimal)": 1383,
-    "grok-4.20-beta-0309-reasoning": 1374,
-    "gemma-4-26b-a4b": 1367,
-    "gemma-4-31b": 1364,
-    "deepseek-v3.2-thinking": 1361,
-    "qwen3.5-122b-a10b": 1359,
-    "qwen3.5-27b": 1358,
-    "hunyuan-hy3": 1357,
-    "grok-4.3": 1357,
-    "laguna-m.1": 1349,
-    "gpt-5.1": 1341,
-    "glm-4.6": 1339,
-    "gpt-5.2-codex": 1338,
-    "gpt-5.1-codex": 1336,
-    "mimo-v2-flash (non-thinking)": 1331,
-    "claude-haiku-4-5": 1325,
-    "deepseek-v3.2": 1323,
-    "kimi-k2-thinking-turbo": 1322,
-    "laguna-xs.2": 1304,
-    "minimax-m2": 1297,
-    "mimo-v2-flash (thinking)": 1291,
-    "qwen3-coder-480b-a35b-instruct": 1272,
-    "mistral-medium-3.5": 1267,
-    "gemini-3.1-flash-lite": 1256,
-    "kat-coder-pro-v1": 1255,
-    "qwen3.5-35b-a3b": 1250,
-    "gpt-5.1-codex-mini": 1244,
-    "grok-4-1-fast-reasoning": 1240,
-    "trinity-large-thinking": 1239,
-    "qwen3.5-flash": 1238,
-    "mistral-large-3": 1230,
-    "gemini-2.5-pro": 1224,
-    "grok-4.1-thinking": 1210,
-    "devstral-2": 1194,
-    "granite-4.1-8b": 1193,
-    "mercury-2": 1166,
-    "grok-code-fast-1": 1163,
-    "grok-4-fast-reasoning": 1160,
-    "devstral-medium-2507": 1079
+    "kimi-k2.5-thinking": 1436
   },
   "price": {
     "qwen3.8-max": {
@@ -629,12 +571,12 @@
       "o": 0.87
     },
     "deepseek-v4-flash": {
-      "i": 0.0882,
-      "o": 0.1764
+      "i": 0.14,
+      "o": 0.28
     },
     "kimi-k2.6": {
-      "i": 0.589,
-      "o": 2.48
+      "i": 0.5795,
+      "o": 2.44
     },
     "claude-opus-4.7": {
       "i": 5.0,
@@ -829,8 +771,8 @@
       "o": 1.5
     },
     "deepseek-v3.2": {
-      "i": 0.269,
-      "o": 0.4
+      "i": 0.26,
+      "o": 0.38
     },
     "claude-opus-4.5": {
       "i": 5.0,
