@@ -302,55 +302,55 @@
     ]
   },
   "rank": {
-    "claude-opus-5-max": 1686,
-    "kimi-k3-max": 1675,
-    "claude-opus-5-high": 1670,
-    "qwen3.8-max": 1667,
-    "claude-fable-5": 1630,
-    "gpt-5.6-sol-xhigh (codex-harness)": 1620,
+    "claude-opus-5-max": 1692,
+    "kimi-k3-max": 1674,
+    "qwen3.8-max": 1671,
+    "claude-opus-5-high": 1667,
+    "claude-fable-5": 1628,
+    "gpt-5.6-sol-xhigh (codex-harness)": 1623,
     "glm-5.2-max": 1588,
-    "deepseek-v4-flash-high": 1581,
-    "claude-opus-4-8-thinking": 1565,
-    "claude-opus-4-7": 1560,
-    "claude-opus-4-7-thinking": 1557,
-    "grok-4.5": 1552,
+    "deepseek-v4-flash-high": 1585,
+    "claude-opus-4-8-thinking": 1564,
+    "claude-opus-4-7-thinking": 1558,
+    "claude-opus-4-7": 1558,
+    "grok-4.5": 1554,
     "claude-opus-4-6-thinking": 1545,
-    "muse-spark-1.2 (xhigh)": 1544,
-    "claude-sonnet-5-high": 1541,
-    "claude-opus-4-8": 1539,
+    "claude-sonnet-5-high": 1542,
+    "claude-opus-4-8": 1540,
     "claude-opus-4-6": 1538,
+    "muse-spark-1.1": 1537,
     "gemini-3.6-flash": 1536,
-    "muse-spark-1.1": 1536,
-    "gpt-5.6-terra-xhigh (codex-harness)": 1526,
-    "seed-2.1-pro": 1524,
-    "gpt-5.6-luna-xhigh (codex-harness)": 1523,
-    "claude-sonnet-4-6": 1522,
-    "hy3": 1522,
-    "qwen3.7-max": 1516,
-    "glm-5.1": 1515,
-    "kimi-k2.6": 1510,
-    "gemini-3.5-flash-high": 1509,
-    "gpt-5.5-xhigh (codex-harness)": 1509,
-    "claude-opus-4-5-20251101-thinking-32k": 1494,
-    "gemini-3.5-flash": 1493,
+    "muse-spark-1.2 (xhigh)": 1535,
+    "hy3": 1524,
+    "claude-sonnet-4-6": 1524,
+    "gpt-5.6-terra-xhigh (codex-harness)": 1524,
+    "seed-2.1-pro": 1522,
+    "gpt-5.6-luna-xhigh (codex-harness)": 1519,
+    "qwen3.7-max": 1517,
+    "glm-5.1": 1511,
+    "kimi-k2.6": 1509,
+    "gpt-5.5-xhigh (codex-harness)": 1508,
+    "gemini-3.5-flash-high": 1506,
+    "claude-opus-4-5-20251101-thinking-32k": 1495,
+    "gemini-3.5-flash": 1492,
     "minimax-m3": 1491,
     "gemini-3.5-flash-medium": 1487,
     "gpt-5.5-high (codex-harness)": 1486,
-    "qwen3.6-max": 1478,
+    "qwen3.6-max": 1479,
     "mimo-v2.5-pro": 1474,
-    "kimi-k2.7-code": 1473,
-    "claude-opus-4-5": 1467,
+    "kimi-k2.7-code": 1474,
+    "claude-opus-4-5": 1468,
     "deepseek-v4-pro-high": 1464,
-    "gpt-5.4-high (codex-harness)": 1462,
-    "qwen3.6-plus": 1458,
+    "gpt-5.4-high (codex-harness)": 1463,
+    "qwen3.6-plus": 1459,
     "gpt-5.5 (codex-harness)": 1458,
-    "gemini-3.5-flash-lite": 1453,
-    "deepseek-v4-pro": 1446,
-    "gemini-3.1-pro": 1446,
-    "gpt-5.4-medium (codex-harness)": 1443,
+    "gemini-3.5-flash-lite": 1450,
+    "gemini-3.1-pro": 1447,
+    "deepseek-v4-pro": 1445,
+    "gpt-5.4-medium (codex-harness)": 1442,
     "gemini-3-flash": 1438,
+    "mimo-v2.5": 1438,
     "gemini-3-pro": 1438,
-    "mimo-v2.5": 1437,
     "kimi-k2.5-thinking": 1436
   },
   "price": {
@@ -567,8 +567,8 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.435,
-      "o": 0.87
+      "i": 0.6317,
+      "o": 1.2634
     },
     "deepseek-v4-flash": {
       "i": 0.14,
@@ -646,10 +646,6 @@
       "i": 1.25,
       "o": 7.5
     },
-    "gpt-5.3-chat": {
-      "i": 1.75,
-      "o": 14.0
-    },
     "qwen3.5-35b-a3b": {
       "i": 0.14,
       "o": 1.0
@@ -695,8 +691,8 @@
       "o": 1.56
     },
     "qwen3.5-397b-a17b": {
-      "i": 0.39,
-      "o": 2.34
+      "i": 0.5,
+      "o": 3.6
     },
     "qwen3-max-thinking": {
       "i": 0.78,
@@ -960,7 +956,7 @@
     },
     "qwen3-coder-30b-a3b-instruct": {
       "i": 0.07,
-      "o": 0.27
+      "o": 0.28
     },
     "qwen3-30b-a3b-instruct-2507": {
       "i": 0.0481,
