@@ -269,8 +269,8 @@
       "openai/gpt-4.1-nano:batch",
       "qwen/qwen3-32b",
       "google/gemma-4-31b-it",
-      "qwen/qwen3-235b-a22b-2507",
-      "mistralai/mistral-small-3.2-24b-instruct"
+      "mistralai/mistral-small-3.2-24b-instruct",
+      "qwen/qwen3-235b-a22b-2507"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
@@ -354,8 +354,8 @@
   },
   "price": {
     "deepseek-v4-flash-vision": {
-      "i": 0.22,
-      "o": 0.66
+      "i": 0.44,
+      "o": 1.32
     },
     "qwen3.8-27b": {
       "i": 0.4,
@@ -594,12 +594,12 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.5262,
-      "o": 1.0524
+      "i": 0.7903,
+      "o": 1.5806
     },
     "deepseek-v4-flash": {
-      "i": 0.0574,
-      "o": 0.1148
+      "i": 0.0886,
+      "o": 0.1772
     },
     "kimi-k2.6": {
       "i": 0.95,
@@ -738,8 +738,8 @@
       "o": 0.8
     },
     "kimi-k2.5": {
-      "i": 0.45,
-      "o": 2.25
+      "i": 0.6,
+      "o": 3.0
     },
     "gpt-5.2-codex": {
       "i": 1.75,
@@ -772,6 +772,10 @@
     "gpt-5.2:batch": {
       "i": 0.875,
       "o": 7.0
+    },
+    "devstral-2512": {
+      "i": 0.44,
+      "o": 2.2
     },
     "gpt-5.1-codex-max": {
       "i": 1.25,
