@@ -1,6 +1,6 @@
 {
   "_comment": "Public CompSmith model recommendations. Changes live within 24 h. 'best'=top performers, 'value'=cost-effective picks, 'fast'=low-latency picks. Providers are shown in CompSmith even before a user saves an API key.",
-  "_updated": "2026-08",
+  "_updated": "2026-09",
   "providers": {
     "xai": {
       "name": "xAI",
@@ -302,55 +302,55 @@
     ]
   },
   "rank": {
-    "claude-opus-5-max": 1691,
+    "claude-opus-5-max": 1688,
     "kimi-k3-max": 1674,
     "qwen3.8-max": 1669,
-    "claude-opus-5-high": 1663,
+    "claude-opus-5-high": 1661,
+    "hy4": 1631,
     "grok-4.6-high": 1629,
-    "claude-fable-5": 1626,
-    "gpt-5.6-sol-xhigh (codex-harness)": 1619,
-    "glm-5.3-max": 1599,
-    "qwen3.8-27b": 1595,
+    "claude-fable-5": 1628,
+    "qwen3.8-flash-next": 1622,
+    "gpt-5.6-sol-xhigh (codex-harness)": 1616,
+    "glm-5.3-max": 1608,
+    "glm-5.3-flash": 1606,
+    "qwen3.8-27b": 1598,
     "gemini-3.7-flash-high": 1587,
-    "glm-5.2-max": 1582,
-    "deepseek-v4-pro-high": 1582,
-    "deepseek-v4-flash-high": 1579,
+    "glm-5.2-max": 1585,
+    "deepseek-v4-pro-high": 1583,
+    "deepseek-v4-flash-high": 1580,
     "claude-opus-4-8-high": 1563,
-    "claude-opus-4-7": 1558,
+    "claude-opus-4-7": 1557,
     "claude-opus-4-7-high": 1557,
     "grok-4.5": 1556,
     "claude-opus-4-6-high": 1546,
-    "claude-opus-4-8": 1539,
-    "muse-spark-1.1": 1539,
-    "gemini-3.6-flash-high": 1539,
-    "claude-sonnet-5-high": 1539,
+    "claude-opus-4-8": 1540,
+    "muse-spark-1.1": 1540,
+    "gemini-3.6-flash-high": 1538,
+    "claude-sonnet-5-high": 1537,
     "claude-opus-4-6": 1536,
     "muse-spark-1.2 (xhigh)": 1534,
+    "seed-2.1-pro": 1522,
     "claude-sonnet-4-6": 1522,
-    "seed-2.1-pro": 1521,
-    "gpt-5.6-terra-xhigh (codex-harness)": 1520,
-    "hy3": 1518,
+    "gpt-5.6-terra-xhigh (codex-harness)": 1519,
     "gpt-5.6-luna-xhigh (codex-harness)": 1518,
     "qwen3.7-max": 1517,
-    "glm-5.1": 1509,
+    "hy3": 1513,
+    "gpt-5.5-xhigh (codex-harness)": 1510,
     "kimi-k2.6": 1509,
-    "gpt-5.5-xhigh (codex-harness)": 1508,
-    "gemini-3.5-flash-high": 1499,
-    "claude-opus-4-5-20251101-high-32k": 1494,
-    "gemini-3.5-flash-medium": 1490,
-    "minimax-m3": 1488,
+    "glm-5.1": 1509,
+    "gemini-3.5-flash-high": 1501,
+    "claude-opus-4-5-20251101-high-32k": 1495,
+    "gemini-3.5-flash-medium": 1492,
+    "minimax-m3": 1487,
     "gpt-5.5-high (codex-harness)": 1486,
-    "qwen3.6-max": 1479,
+    "qwen3.6-max": 1478,
     "mimo-v2.5-pro": 1476,
     "kimi-k2.7-code": 1473,
     "claude-opus-4-5": 1468,
     "gpt-5.4-high (codex-harness)": 1463,
     "qwen3.6-plus": 1460,
     "gpt-5.5 (codex-harness)": 1458,
-    "gemini-3.5-flash-lite": 1449,
-    "gemini-3.1-pro": 1446,
-    "deepseek-v4-pro": 1445,
-    "gpt-5.4-medium (codex-harness)": 1442
+    "gemini-3.5-flash-lite": 1449
   },
   "price": {
     "qwen3.8-flash": {
@@ -449,25 +449,49 @@
       "i": 0.2,
       "o": 1.2
     },
+    "gpt-5.6-luna-pro:batch": {
+      "i": 0.1,
+      "o": 0.6
+    },
     "gpt-5.6-luna": {
       "i": 0.2,
       "o": 1.2
+    },
+    "gpt-5.6-luna:batch": {
+      "i": 0.1,
+      "o": 0.6
     },
     "gpt-5.6-terra-pro": {
       "i": 2.0,
       "o": 12.0
     },
+    "gpt-5.6-terra-pro:batch": {
+      "i": 1.0,
+      "o": 6.0
+    },
     "gpt-5.6-terra": {
       "i": 2.0,
       "o": 12.0
+    },
+    "gpt-5.6-terra:batch": {
+      "i": 1.0,
+      "o": 6.0
     },
     "gpt-5.6-sol-pro": {
       "i": 2.0,
       "o": 10.0
     },
+    "gpt-5.6-sol-pro:batch": {
+      "i": 1.0,
+      "o": 5.0
+    },
     "gpt-5.6-sol": {
       "i": 2.0,
       "o": 10.0
+    },
+    "gpt-5.6-sol:batch": {
+      "i": 1.0,
+      "o": 5.0
     },
     "grok-4.5": {
       "i": 2.0,
@@ -577,17 +601,25 @@
       "i": 30.0,
       "o": 180.0
     },
+    "gpt-5.5-pro:batch": {
+      "i": 15.0,
+      "o": 90.0
+    },
     "gpt-5.5": {
       "i": 5.0,
       "o": 30.0
     },
+    "gpt-5.5:batch": {
+      "i": 2.5,
+      "o": 15.0
+    },
     "deepseek-v4-pro": {
-      "i": 1.0423,
-      "o": 2.0845
+      "i": 1.6,
+      "o": 3.2
     },
     "deepseek-v4-flash": {
-      "i": 0.0886,
-      "o": 0.1772
+      "i": 0.0809,
+      "o": 0.1618
     },
     "kimi-k2.6": {
       "i": 0.95,
@@ -629,15 +661,19 @@
       "i": 0.2,
       "o": 1.25
     },
+    "gpt-5.4-nano:batch": {
+      "i": 0.1,
+      "o": 0.625
+    },
     "gpt-5.4-mini": {
       "i": 0.75,
       "o": 4.5
     },
-    "mistral-small-2603": {
-      "i": 0.15,
-      "o": 0.6
+    "gpt-5.4-mini:batch": {
+      "i": 0.375,
+      "o": 2.25
     },
-    "mistral-small-2603:batch": {
+    "mistral-small-2603": {
       "i": 0.15,
       "o": 0.6
     },
@@ -653,9 +689,17 @@
       "i": 30.0,
       "o": 180.0
     },
+    "gpt-5.4-pro:batch": {
+      "i": 15.0,
+      "o": 90.0
+    },
     "gpt-5.4": {
       "i": 2.5,
       "o": 15.0
+    },
+    "gpt-5.4:batch": {
+      "i": 1.25,
+      "o": 7.5
     },
     "qwen3.5-35b-a3b": {
       "i": 0.25,
@@ -745,9 +789,17 @@
       "i": 21.0,
       "o": 168.0
     },
+    "gpt-5.2-pro:batch": {
+      "i": 10.5,
+      "o": 84.0
+    },
     "gpt-5.2": {
       "i": 1.75,
       "o": 14.0
+    },
+    "gpt-5.2:batch": {
+      "i": 0.875,
+      "o": 7.0
     },
     "devstral-2512": {
       "i": 0.4,
@@ -765,19 +817,11 @@
       "i": 0.15,
       "o": 0.15
     },
-    "ministral-8b-2512:batch": {
-      "i": 0.15,
-      "o": 0.15
-    },
     "ministral-3b-2512": {
       "i": 0.1,
       "o": 0.1
     },
     "mistral-large-2512": {
-      "i": 0.5,
-      "o": 1.5
-    },
-    "mistral-large-2512:batch": {
       "i": 0.5,
       "o": 1.5
     },
@@ -796,6 +840,10 @@
     "gpt-5.1": {
       "i": 1.25,
       "o": 10.0
+    },
+    "gpt-5.1:batch": {
+      "i": 0.625,
+      "o": 5.0
     },
     "gpt-5.1-codex": {
       "i": 1.25,
@@ -849,6 +897,10 @@
       "i": 15.0,
       "o": 120.0
     },
+    "gpt-5-pro:batch": {
+      "i": 7.5,
+      "o": 60.0
+    },
     "claude-sonnet-4.5": {
       "i": 3.0,
       "o": 15.0
@@ -886,7 +938,7 @@
       "o": 1.2
     },
     "qwen3-next-80b-a3b-instruct": {
-      "i": 0.09,
+      "i": 0.1,
       "o": 1.1
     },
     "qwen-plus": {
@@ -909,21 +961,29 @@
       "i": 0.4,
       "o": 2.0
     },
-    "mistral-medium-3.1:batch": {
-      "i": 0.4,
-      "o": 2.0
-    },
     "gpt-5": {
       "i": 1.25,
       "o": 10.0
+    },
+    "gpt-5:batch": {
+      "i": 0.625,
+      "o": 5.0
     },
     "gpt-5-mini": {
       "i": 0.25,
       "o": 2.0
     },
+    "gpt-5-mini:batch": {
+      "i": 0.125,
+      "o": 1.0
+    },
     "gpt-5-nano": {
       "i": 0.05,
       "o": 0.4
+    },
+    "gpt-5-nano:batch": {
+      "i": 0.025,
+      "o": 0.2
     },
     "gpt-oss-120b": {
       "i": 0.037,
@@ -950,10 +1010,6 @@
       "o": 37.5
     },
     "codestral-2508": {
-      "i": 0.3,
-      "o": 0.9
-    },
-    "codestral-2508:batch": {
       "i": 0.3,
       "o": 0.9
     },
@@ -1065,29 +1121,49 @@
       "i": 2.0,
       "o": 8.0
     },
+    "o3:batch": {
+      "i": 1.0,
+      "o": 4.0
+    },
     "o4-mini": {
       "i": 1.1,
       "o": 4.4
+    },
+    "o4-mini:batch": {
+      "i": 0.55,
+      "o": 2.2
     },
     "gpt-4.1": {
       "i": 2.0,
       "o": 8.0
     },
+    "gpt-4.1:batch": {
+      "i": 1.0,
+      "o": 4.0
+    },
     "gpt-4.1-mini": {
       "i": 0.4,
       "o": 1.6
     },
+    "gpt-4.1-mini:batch": {
+      "i": 0.2,
+      "o": 0.8
+    },
     "gpt-4.1-nano": {
       "i": 0.1,
       "o": 0.4
+    },
+    "gpt-4.1-nano:batch": {
+      "i": 0.05,
+      "o": 0.2
     },
     "llama-4-maverick": {
       "i": 0.2,
       "o": 0.696
     },
     "llama-4-scout": {
-      "i": 0.11,
-      "o": 0.34
+      "i": 0.1,
+      "o": 0.3
     },
     "deepseek-chat-v3-0324": {
       "i": 0.25,
@@ -1132,6 +1208,10 @@
     "o3-mini": {
       "i": 1.1,
       "o": 4.4
+    },
+    "o3-mini:batch": {
+      "i": 0.55,
+      "o": 2.2
     },
     "mistral-small-24b-instruct-2501": {
       "i": 0.05,
@@ -1213,9 +1293,17 @@
       "i": 0.15,
       "o": 0.6
     },
+    "gpt-4o-mini:batch": {
+      "i": 0.075,
+      "o": 0.3
+    },
     "gemma-2-27b-it": {
       "i": 0.65,
       "o": 0.65
+    },
+    "gpt-4o:batch": {
+      "i": 1.25,
+      "o": 5.0
     },
     "mixtral-8x22b-instruct": {
       "i": 2.0,
@@ -1224,6 +1312,10 @@
     "gpt-4-turbo": {
       "i": 10.0,
       "o": 30.0
+    },
+    "gpt-4-turbo:batch": {
+      "i": 5.0,
+      "o": 15.0
     },
     "claude-3-haiku": {
       "i": 0.25,
@@ -1248,6 +1340,10 @@
     "gpt-3.5-turbo": {
       "i": 0.5,
       "o": 1.5
+    },
+    "gpt-3.5-turbo:batch": {
+      "i": 0.25,
+      "o": 0.75
     },
     "gpt-4": {
       "i": 30.0,
