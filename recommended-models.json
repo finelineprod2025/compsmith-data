@@ -266,11 +266,11 @@
       "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4-flash-0731",
       "qwen/qwen3-235b-a22b-2507",
-      "google/gemini-2.5-flash-lite",
       "mistralai/mistral-small-3.2-24b-instruct",
       "qwen/qwen3.6-35b-a3b",
       "openai/gpt-oss-120b",
-      "openai/gpt-5-nano"
+      "openai/gpt-5-nano",
+      "google/gemini-2.5-flash-lite"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
@@ -302,57 +302,36 @@
     ]
   },
   "rank": {
-    "claude-opus-5-max": 1688,
+    "claude-fable-5.1-max": 1765,
+    "qwen3.8-max-0902": 1688,
+    "claude-opus-5-max": 1687,
     "kimi-k3-max": 1674,
     "qwen3.8-max": 1669,
     "claude-opus-5-high": 1661,
-    "hy4": 1631,
     "grok-4.6-high": 1629,
     "claude-fable-5": 1628,
+    "hy4": 1626,
     "qwen3.8-flash-next": 1622,
     "gpt-5.6-sol-xhigh (codex-harness)": 1616,
-    "glm-5.3-max": 1608,
-    "glm-5.3-flash": 1606,
-    "qwen3.8-27b": 1598,
+    "glm-5.3-max": 1609,
+    "glm-5.3-flash": 1604,
+    "qwen3.8-27b": 1597,
     "gemini-3.7-flash-high": 1587,
     "glm-5.2-max": 1585,
-    "deepseek-v4-pro-high": 1583,
-    "deepseek-v4-flash-high": 1580,
-    "claude-opus-4-8-high": 1563,
-    "claude-opus-4-7": 1557,
-    "claude-opus-4-7-high": 1557,
-    "grok-4.5": 1556,
-    "claude-opus-4-6-high": 1546,
-    "claude-opus-4-8": 1540,
-    "muse-spark-1.1": 1540,
-    "gemini-3.6-flash-high": 1538,
-    "claude-sonnet-5-high": 1537,
-    "claude-opus-4-6": 1536,
-    "muse-spark-1.2 (xhigh)": 1534,
-    "seed-2.1-pro": 1522,
-    "claude-sonnet-4-6": 1522,
-    "gpt-5.6-terra-xhigh (codex-harness)": 1519,
-    "gpt-5.6-luna-xhigh (codex-harness)": 1518,
-    "qwen3.7-max": 1517,
-    "hy3": 1513,
-    "gpt-5.5-xhigh (codex-harness)": 1510,
-    "kimi-k2.6": 1509,
-    "glm-5.1": 1509,
-    "gemini-3.5-flash-high": 1501,
-    "claude-opus-4-5-20251101-high-32k": 1495,
-    "gemini-3.5-flash-medium": 1492,
-    "minimax-m3": 1487,
-    "gpt-5.5-high (codex-harness)": 1486,
-    "qwen3.6-max": 1478,
-    "mimo-v2.5-pro": 1476,
-    "kimi-k2.7-code": 1473,
-    "claude-opus-4-5": 1468,
-    "gpt-5.4-high (codex-harness)": 1463,
-    "qwen3.6-plus": 1460,
-    "gpt-5.5 (codex-harness)": 1458,
-    "gemini-3.5-flash-lite": 1449
+    "deepseek-v4-pro-high": 1582,
+    "deepseek-v4-flash-high": 1581,
+    "gemini-3.8-flash-high": 1567,
+    "claude-opus-4-8-high": 1563
   },
   "price": {
+    "gemini-3.8-flash": {
+      "i": 0.75,
+      "o": 3.75
+    },
+    "gemini-3.8-flash:batch": {
+      "i": 0.375,
+      "o": 1.875
+    },
     "claude-fable-5.1": {
       "i": 10.0,
       "o": 50.0
@@ -378,8 +357,8 @@
       "o": 3.75
     },
     "gemini-3.7-flash:batch": {
-      "i": 0.1875,
-      "o": 0.9375
+      "i": 0.375,
+      "o": 1.875
     },
     "qwen3.8-2.4t-a95b": {
       "i": 2.0,
@@ -742,8 +721,8 @@
       "o": 1.56
     },
     "qwen3.5-397b-a17b": {
-      "i": 0.39,
-      "o": 2.34
+      "i": 0.55,
+      "o": 3.5
     },
     "qwen3-max-thinking": {
       "i": 0.78,
@@ -1222,8 +1201,8 @@
       "o": 2.5
     },
     "deepseek-chat": {
-      "i": 0.2574,
-      "o": 1.0287
+      "i": 0.32,
+      "o": 0.89
     },
     "o1": {
       "i": 15.0,
@@ -1234,8 +1213,8 @@
       "o": 0.15
     },
     "llama-3.3-70b-instruct": {
-      "i": 0.71,
-      "o": 0.71
+      "i": 0.1,
+      "o": 0.32
     },
     "gpt-4o": {
       "i": 2.5,
