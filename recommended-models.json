@@ -321,7 +321,31 @@
     "glm-5.3-flash": 1607,
     "qwen3.8-27b": 1593,
     "glm-5.2-max": 1592,
-    "gemini-3.7-flash-high": 1587
+    "gemini-3.7-flash-high": 1587,
+    "deepseek-v4-pro-high": 1581,
+    "deepseek-v4-flash-high": 1580,
+    "gemini-3.8-flash-high": 1568,
+    "claude-opus-4-8-high": 1559,
+    "claude-opus-4-7": 1557,
+    "claude-opus-4-7-high": 1555,
+    "grok-4.5": 1555,
+    "claude-opus-4-6-high": 1547,
+    "muse-spark-1.1": 1542,
+    "claude-opus-4-8": 1539,
+    "claude-opus-4-6": 1537,
+    "gemini-3.6-flash-high": 1537,
+    "claude-sonnet-5-high": 1537,
+    "muse-spark-1.2 (xhigh)": 1534,
+    "gpt-5.6-terra-xhigh (codex-harness)": 1521,
+    "claude-sonnet-4-6": 1521,
+    "gpt-5.6-luna-xhigh (codex-harness)": 1519,
+    "seed-2.1-pro": 1519,
+    "qwen3.7-max": 1517,
+    "hy3": 1513,
+    "gpt-5.5-xhigh (codex-harness)": 1510,
+    "kimi-k2.6": 1509,
+    "glm-5.1": 1508,
+    "gemini-3.5-flash-high": 1500
   },
   "price": {
     "deepseek-v4.1-flash": {
@@ -445,8 +469,8 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 2.3027,
-      "o": 11.5502
+      "i": 2.6481,
+      "o": 13.2827
     },
     "kimi-k3:batch": {
       "i": 3.0,
@@ -617,12 +641,12 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.7992,
-      "o": 1.5984
+      "i": 1.6,
+      "o": 3.2
     },
     "deepseek-v4-flash": {
-      "i": 0.0668,
-      "o": 0.1336
+      "i": 0.049,
+      "o": 0.098
     },
     "kimi-k2.6": {
       "i": 0.95,
@@ -637,8 +661,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.042,
-      "o": 0.22
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.09,
@@ -1041,8 +1065,8 @@
       "o": 0.28
     },
     "qwen3-30b-a3b-instruct-2507": {
-      "i": 0.09,
-      "o": 0.3
+      "i": 0.0481,
+      "o": 0.193
     },
     "qwen3-235b-a22b-thinking-2507": {
       "i": 0.23,
@@ -1301,8 +1325,8 @@
       "o": 10.0
     },
     "llama-3.1-70b-instruct": {
-      "i": 0.72,
-      "o": 0.72
+      "i": 0.4,
+      "o": 0.4
     },
     "llama-3.1-8b-instruct": {
       "i": 0.05,
