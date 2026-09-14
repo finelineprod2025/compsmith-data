@@ -276,27 +276,27 @@
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
+      "google/lyria-3-pro-preview",
       "google/lyria-3-clip-preview",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
-      "openai/gpt-5-nano:batch",
       "deepseek/deepseek-v4-flash-0731",
       "openai/gpt-oss-120b",
       "mistralai/mistral-small-3.2-24b-instruct",
       "meta-llama/llama-3.1-8b-instruct",
-      "google/gemini-2.5-flash-lite:batch",
       "qwen/qwen3.6-35b-a3b",
-      "openai/gpt-oss-20b"
+      "openai/gpt-oss-20b",
+      "openai/gpt-5-nano:batch"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
+      "google/lyria-3-pro-preview",
       "google/lyria-3-clip-preview",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
       "deepseek/deepseek-v4-flash-0731",
-      "openai/gpt-5-nano",
       "meta-llama/llama-3.1-8b-instruct",
       "openai/gpt-oss-20b"
     ]
@@ -321,31 +321,7 @@
     "glm-5.3-flash": 1607,
     "qwen3.8-27b": 1593,
     "glm-5.2-max": 1592,
-    "gemini-3.7-flash-high": 1587,
-    "deepseek-v4-pro-high": 1581,
-    "deepseek-v4-flash-high": 1580,
-    "gemini-3.8-flash-high": 1568,
-    "claude-opus-4-8-high": 1559,
-    "claude-opus-4-7": 1557,
-    "claude-opus-4-7-high": 1555,
-    "grok-4.5": 1555,
-    "claude-opus-4-6-high": 1547,
-    "muse-spark-1.1": 1542,
-    "claude-opus-4-8": 1539,
-    "claude-opus-4-6": 1537,
-    "gemini-3.6-flash-high": 1537,
-    "claude-sonnet-5-high": 1537,
-    "muse-spark-1.2 (xhigh)": 1534,
-    "gpt-5.6-terra-xhigh (codex-harness)": 1521,
-    "claude-sonnet-4-6": 1521,
-    "gpt-5.6-luna-xhigh (codex-harness)": 1519,
-    "seed-2.1-pro": 1519,
-    "qwen3.7-max": 1517,
-    "hy3": 1513,
-    "gpt-5.5-xhigh (codex-harness)": 1510,
-    "kimi-k2.6": 1509,
-    "glm-5.1": 1508,
-    "gemini-3.5-flash-high": 1500
+    "gemini-3.7-flash-high": 1587
   },
   "price": {
     "deepseek-v4.1-flash": {
@@ -421,8 +397,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.5782,
-      "o": 1.7345
+      "i": 0.9834,
+      "o": 2.9502
     },
     "deepseek-v4-pro-0813:batch": {
       "i": 0.66,
@@ -433,8 +409,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.04,
-      "o": 0.08
+      "i": 0.06,
+      "o": 0.12
     },
     "deepseek-v4-flash-0731:batch": {
       "i": 0.11,
@@ -645,8 +621,8 @@
       "o": 3.2
     },
     "deepseek-v4-flash": {
-      "i": 0.049,
-      "o": 0.098
+      "i": 0.0886,
+      "o": 0.1772
     },
     "kimi-k2.6": {
       "i": 0.95,
@@ -1149,8 +1125,8 @@
       "o": 0.455
     },
     "qwen3-14b": {
-      "i": 0.2275,
-      "o": 0.91
+      "i": 0.12,
+      "o": 0.24
     },
     "qwen3-32b": {
       "i": 0.08,
