@@ -264,10 +264,10 @@
   "tiers": {
     "best": [
       "qwen/qwen3.7-flash",
-      "openai/gpt-oss-120b",
       "deepseek/deepseek-v4-flash",
-      "qwen/qwen3-32b",
+      "openai/gpt-oss-120b",
       "mistralai/mistral-small-3.2-24b-instruct",
+      "qwen/qwen3-32b",
       "qwen/qwen3.6-35b-a3b",
       "google/gemini-2.5-flash-lite",
       "openai/gpt-5-nano"
@@ -277,15 +277,15 @@
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
       "google/lyria-3-pro-preview",
+      "google/lyria-3-clip-preview",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
-      "deepseek/deepseek-v4-flash-0731",
-      "openai/gpt-oss-120b",
-      "mistralai/mistral-small-3.2-24b-instruct",
-      "meta-llama/llama-3.1-8b-instruct",
-      "qwen/qwen3.6-35b-a3b",
-      "openai/gpt-oss-20b",
       "openai/gpt-5-nano:batch",
+      "meta-llama/llama-3.2-1b-instruct",
+      "openai/gpt-oss-20b",
+      "openai/gpt-oss-120b",
+      "deepseek/deepseek-v4-flash-0731",
+      "meta-llama/llama-3.1-8b-instruct",
       "google/gemini-2.5-flash-lite:batch"
     ],
     "fast": [
@@ -295,10 +295,10 @@
       "google/lyria-3-pro-preview",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
-      "deepseek/deepseek-v4-flash-0731",
-      "meta-llama/llama-3.1-8b-instruct",
+      "meta-llama/llama-3.2-1b-instruct",
       "openai/gpt-oss-20b",
-      "meta-llama/llama-3.2-3b-instruct"
+      "deepseek/deepseek-v4-flash-0731",
+      "meta-llama/llama-3.1-8b-instruct"
     ]
   },
   "rank": {
@@ -321,7 +321,37 @@
     "glm-5.3-flash": 1607,
     "qwen3.8-27b": 1593,
     "glm-5.2-max": 1592,
-    "gemini-3.7-flash-high": 1587
+    "gemini-3.7-flash-high": 1587,
+    "deepseek-v4-pro-high": 1581,
+    "deepseek-v4-flash-high": 1580,
+    "gemini-3.8-flash-high": 1568,
+    "claude-opus-4-8-high": 1559,
+    "claude-opus-4-7": 1557,
+    "claude-opus-4-7-high": 1555,
+    "grok-4.5": 1555,
+    "claude-opus-4-6-high": 1547,
+    "muse-spark-1.1": 1542,
+    "claude-opus-4-8": 1539,
+    "claude-opus-4-6": 1537,
+    "gemini-3.6-flash-high": 1537,
+    "claude-sonnet-5-high": 1537,
+    "muse-spark-1.2 (xhigh)": 1534,
+    "gpt-5.6-terra-xhigh (codex-harness)": 1521,
+    "claude-sonnet-4-6": 1521,
+    "gpt-5.6-luna-xhigh (codex-harness)": 1519,
+    "seed-2.1-pro": 1519,
+    "qwen3.7-max": 1517,
+    "hy3": 1513,
+    "gpt-5.5-xhigh (codex-harness)": 1510,
+    "kimi-k2.6": 1509,
+    "glm-5.1": 1508,
+    "gemini-3.5-flash-high": 1500,
+    "claude-opus-4-5-20251101-high-32k": 1495,
+    "gemini-3.5-flash-medium": 1492,
+    "gpt-5.5-high (codex-harness)": 1487,
+    "minimax-m3": 1487,
+    "qwen3.6-max": 1479,
+    "mimo-v2.5-pro": 1475
   },
   "price": {
     "deepseek-v4.1-flash": {
@@ -397,8 +427,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.9834,
-      "o": 2.9502
+      "i": 0.66,
+      "o": 1.98
     },
     "deepseek-v4-pro-0813:batch": {
       "i": 0.66,
@@ -445,8 +475,8 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 2.6481,
-      "o": 13.2827
+      "i": 3.0,
+      "o": 15.0
     },
     "kimi-k3:batch": {
       "i": 3.0,
@@ -513,8 +543,8 @@
       "o": 5.0
     },
     "kimi-k2.7-code": {
-      "i": 0.71,
-      "o": 3.5
+      "i": 0.7062,
+      "o": 3.21
     },
     "claude-fable-5": {
       "i": 10.0,
@@ -643,10 +673,6 @@
     "gemma-4-31b-it": {
       "i": 0.09,
       "o": 0.34
-    },
-    "gemma-4-31b-it:batch": {
-      "i": 0.39,
-      "o": 0.97
     },
     "qwen3.6-plus": {
       "i": 0.325,
@@ -905,8 +931,8 @@
       "o": 2.4
     },
     "qwen3-vl-30b-a3b-instruct": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.13,
+      "o": 0.52
     },
     "gpt-5-pro": {
       "i": 15.0,
@@ -1016,10 +1042,6 @@
       "i": 0.03,
       "o": 0.13
     },
-    "gpt-oss-20b:batch": {
-      "i": 0.05,
-      "o": 0.2
-    },
     "claude-opus-4.1": {
       "i": 15.0,
       "o": 75.0
@@ -1069,8 +1091,8 @@
       "o": 2.3
     },
     "mistral-small-3.2-24b-instruct": {
-      "i": 0.075,
-      "o": 0.2
+      "i": 0.0938,
+      "o": 0.25
     },
     "gemini-2.5-flash": {
       "i": 0.3,
