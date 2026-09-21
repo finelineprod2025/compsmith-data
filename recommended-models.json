@@ -266,10 +266,10 @@
       "qwen/qwen3.8-27b:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
-      "qwen/qwen3.7-flash",
-      "deepseek/deepseek-v4-flash-0731",
       "deepseek/deepseek-v4-flash",
-      "qwen/qwen3-32b",
+      "qwen/qwen3.7-flash",
+      "google/gemini-3.7-flash-high",
+      "deepseek/deepseek-v4-flash-0731",
       "mistralai/mistral-small-3.2-24b-instruct"
     ],
     "value": [
@@ -280,8 +280,8 @@
       "google/lyria-3-pro-preview",
       "google/lyria-3-clip-preview",
       "qwen/qwen3.7-flash",
-      "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
+      "deepseek/deepseek-v4-flash",
       "mistralai/mistral-nemo",
       "openai/gpt-5-nano:batch",
       "openai/gpt-oss-20b",
@@ -297,7 +297,7 @@
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.2-1b-instruct",
       "openai/gpt-oss-20b",
-      "deepseek/deepseek-v4-flash",
+      "deepseek/deepseek-v4-flash-0731",
       "meta-llama/llama-3.1-8b-instruct"
     ]
   },
@@ -369,16 +369,16 @@
       "o": 0.47
     },
     "deepseek-v4-flash-vision": {
-      "i": 0.2156,
-      "o": 0.6468
+      "i": 0.22,
+      "o": 0.66
     },
     "deepseek-v4-flash-vision-exp:batch": {
       "i": 0.11,
       "o": 0.33
     },
     "qwen3.8-27b": {
-      "i": 0.42,
-      "o": 3.0
+      "i": 0.2,
+      "o": 2.5
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -410,7 +410,7 @@
     },
     "deepseek-v4-flash-0731": {
       "i": 0.04,
-      "o": 0.08
+      "o": 0.16
     },
     "deepseek-v4-flash-0731:batch": {
       "i": 0.11,
@@ -589,8 +589,8 @@
       "o": 1.125
     },
     "qwen3.6-35b-a3b": {
-      "i": 0.1,
-      "o": 0.9
+      "i": 0.15,
+      "o": 1.0
     },
     "qwen3.6-max": {
       "i": 1.027,
@@ -617,12 +617,12 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.4223,
-      "o": 0.8446
+      "i": 0.9553,
+      "o": 1.9105
     },
     "deepseek-v4-flash": {
-      "i": 0.0364,
-      "o": 0.0728
+      "i": 0.0886,
+      "o": 0.1772
     },
     "kimi-k2.6": {
       "i": 0.95,
@@ -897,8 +897,8 @@
       "o": 2.4
     },
     "qwen3-vl-30b-a3b-instruct": {
-      "i": 0.2,
-      "o": 0.7
+      "i": 0.13,
+      "o": 0.52
     },
     "gpt-5-pro": {
       "i": 15.0,
@@ -1165,8 +1165,8 @@
       "o": 0.2
     },
     "llama-4-maverick": {
-      "i": 0.1875,
-      "o": 0.6525
+      "i": 0.2,
+      "o": 0.8
     },
     "llama-4-scout": {
       "i": 0.1,
@@ -1285,8 +1285,8 @@
       "o": 10.0
     },
     "llama-3.1-70b-instruct": {
-      "i": 0.4,
-      "o": 0.4
+      "i": 0.72,
+      "o": 0.72
     },
     "llama-3.1-8b-instruct": {
       "i": 0.05,
