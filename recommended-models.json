@@ -268,17 +268,17 @@
       "google/gemma-4-26b-a4b-it:free",
       "deepseek/deepseek-v4-flash",
       "qwen/qwen3.7-flash",
-      "google/gemini-3.7-flash-high",
+      "google/gemma-3-27b-it",
       "deepseek/deepseek-v4-flash-0731",
-      "mistralai/mistral-small-3.2-24b-instruct"
+      "qwen/qwen3-235b-a22b-2507"
     ],
     "value": [
       "qwen/qwen3.8-27b:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "google/lyria-3-pro-preview",
-      "google/lyria-3-clip-preview",
+      "google/gemma-4-26b-a4b-it",
+      "google/gemma-4-31b-it",
       "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4-flash-0731",
       "deepseek/deepseek-v4-flash",
@@ -290,15 +290,15 @@
     ],
     "fast": [
       "qwen/qwen3.8-27b:free",
+      "cohere/north-mini-code:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
-      "cohere/north-mini-code:free",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.2-1b-instruct",
       "openai/gpt-oss-20b",
-      "deepseek/deepseek-v4-flash-0731",
-      "meta-llama/llama-3.1-8b-instruct"
+      "meta-llama/llama-3.1-8b-instruct",
+      "mistralai/mistral-small-24b-instruct-2501"
     ]
   },
   "rank": {
@@ -324,6 +324,10 @@
     "gemini-3.7-flash-high": 1587
   },
   "price": {
+    "grok-4.7": {
+      "i": 1.6,
+      "o": 4.8
+    },
     "deepseek-v4.1-flash": {
       "i": 0.15,
       "o": 0.6
@@ -377,8 +381,8 @@
       "o": 0.33
     },
     "qwen3.8-27b": {
-      "i": 0.2,
-      "o": 2.5
+      "i": 0.42,
+      "o": 3.0
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -389,10 +393,6 @@
       "o": 1.875
     },
     "qwen3.8-2.4t-a95b": {
-      "i": 2.0,
-      "o": 6.0
-    },
-    "qwen3.8-2.4t-a95b:batch": {
       "i": 2.0,
       "o": 6.0
     },
@@ -410,7 +410,7 @@
     },
     "deepseek-v4-flash-0731": {
       "i": 0.04,
-      "o": 0.16
+      "o": 0.64
     },
     "deepseek-v4-flash-0731:batch": {
       "i": 0.11,
@@ -445,10 +445,6 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 1.7,
-      "o": 8.5
-    },
-    "kimi-k3:batch": {
       "i": 3.0,
       "o": 15.0
     },
@@ -514,7 +510,7 @@
     },
     "kimi-k2.7-code": {
       "i": 0.7062,
-      "o": 3.21
+      "o": 3.3
     },
     "claude-fable-5": {
       "i": 10.0,
@@ -683,10 +679,6 @@
     "qwen3.5-9b": {
       "i": 0.1,
       "o": 0.15
-    },
-    "qwen3.5-9b:batch": {
-      "i": 0.17,
-      "o": 0.25
     },
     "gpt-5.4-pro": {
       "i": 30.0,
@@ -1000,10 +992,6 @@
       "i": 0.15,
       "o": 0.6
     },
-    "gpt-oss-120b:batch": {
-      "i": 0.15,
-      "o": 0.6
-    },
     "gpt-oss-20b": {
       "i": 0.03,
       "o": 0.13
@@ -1084,10 +1072,6 @@
       "i": 0.5,
       "o": 2.15
     },
-    "claude-opus-4": {
-      "i": 15.0,
-      "o": 75.0
-    },
     "claude-sonnet-4": {
       "i": 3.0,
       "o": 15.0
@@ -1165,8 +1149,8 @@
       "o": 0.2
     },
     "llama-4-maverick": {
-      "i": 0.2,
-      "o": 0.8
+      "i": 0.1875,
+      "o": 0.6525
     },
     "llama-4-scout": {
       "i": 0.1,
@@ -1285,8 +1269,8 @@
       "o": 10.0
     },
     "llama-3.1-70b-instruct": {
-      "i": 0.72,
-      "o": 0.72
+      "i": 0.4,
+      "o": 0.4
     },
     "llama-3.1-8b-instruct": {
       "i": 0.05,
