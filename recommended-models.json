@@ -266,19 +266,18 @@
       "qwen/qwen3.8-27b:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
+      "google/gemma-3-27b-it",
       "deepseek/deepseek-v4-flash",
       "qwen/qwen3.7-flash",
-      "google/gemma-3-27b-it",
-      "qwen/qwen3-235b-a22b-2507",
-      "google/gemma-4-31b-it"
+      "google/gemma-4-31b-it",
+      "google/gemma-4-26b-a4b-it"
     ],
     "value": [
       "qwen/qwen3.8-27b:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "google/gemma-4-26b-a4b-it",
-      "google/gemma-4-31b-it",
+      "google/gemma-3-27b-it",
       "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
@@ -286,7 +285,8 @@
       "openai/gpt-5-nano:batch",
       "openai/gpt-oss-20b",
       "meta-llama/llama-3.1-8b-instruct",
-      "google/gemini-2.5-flash-lite:batch"
+      "google/gemma-4-31b-it",
+      "google/gemma-4-26b-a4b-it"
     ],
     "fast": [
       "qwen/qwen3.8-27b:free",
@@ -324,6 +324,10 @@
     "gemini-3.7-flash-high": 1587
   },
   "price": {
+    "qwen3.8-max-prime": {
+      "i": 4.0,
+      "o": 12.0
+    },
     "command-a-plus": {
       "i": 0.3,
       "o": 1.5
@@ -377,8 +381,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.14,
+      "o": 0.42
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.112,
@@ -445,16 +449,16 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.4987,
-      "o": 1.4961
+      "i": 0.462,
+      "o": 1.386
     },
     "grok-4.6": {
       "i": 2.0,
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.04,
-      "o": 0.64
+      "i": 0.03,
+      "o": 0.32
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -553,7 +557,7 @@
       "o": 5.0
     },
     "kimi-k2.7-code": {
-      "i": 0.7062,
+      "i": 0.6562,
       "o": 3.3
     },
     "claude-fable-5": {
@@ -657,8 +661,8 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.9553,
-      "o": 1.9105
+      "i": 0.9396,
+      "o": 1.8792
     },
     "deepseek-v4-flash": {
       "i": 0.0886,
@@ -840,10 +844,6 @@
       "i": 0.875,
       "o": 7.0
     },
-    "devstral-2512": {
-      "i": 0.4,
-      "o": 2.0
-    },
     "gpt-5.1-codex-max": {
       "i": 1.25,
       "o": 10.0
@@ -981,7 +981,7 @@
       "o": 1.2
     },
     "qwen3-next-80b-a3b-instruct": {
-      "i": 0.09,
+      "i": 0.1,
       "o": 1.1
     },
     "qwen-plus": {
@@ -1036,6 +1036,10 @@
       "i": 0.15,
       "o": 0.6
     },
+    "gpt-oss-120b:batch": {
+      "i": 0.0296,
+      "o": 0.136
+    },
     "gpt-oss-20b": {
       "i": 0.018,
       "o": 0.09
@@ -1065,8 +1069,8 @@
       "o": 0.28
     },
     "qwen3-30b-a3b-instruct-2507": {
-      "i": 0.0481,
-      "o": 0.193
+      "i": 0.1,
+      "o": 0.3
     },
     "qwen3-235b-a22b-thinking-2507": {
       "i": 0.23,
