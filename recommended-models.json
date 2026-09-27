@@ -267,9 +267,9 @@
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "openai/gpt-6-luna-pro",
-      "openai/gpt-6-luna",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
+      "qwen/qwen3.8-27b",
       "google/gemma-3-27b-it"
     ],
     "value": [
@@ -277,14 +277,14 @@
       "cohere/north-mini-code:free",
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
+      "google/gemma-4-31b-it",
+      "google/gemma-4-26b-a4b-it",
       "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
       "mistralai/mistral-nemo",
       "openai/gpt-oss-20b",
       "meta-llama/llama-3.1-8b-instruct",
-      "google/gemma-4-26b-a4b-it",
-      "google/gemma-4-31b-it",
       "google/gemma-3-27b-it",
       "mistralai/mistral-small-24b-instruct-2501"
     ],
@@ -321,7 +321,17 @@
     "grok-4.6-high": 1621,
     "glm-5.3-max": 1619,
     "mimo-v2.6-pro": 1618,
-    "gpt-5.6-sol-xhigh (codex-harness)": 1617
+    "gpt-5.6-sol-xhigh (codex-harness)": 1617,
+    "glm-5.3-flash": 1613,
+    "glm-5.2-max": 1602,
+    "gemini-3.7-flash-high": 1593,
+    "gpt-6-luna-max": 1593,
+    "qwen3.8-27b": 1591,
+    "deepseek-v4-pro-high": 1582,
+    "deepseek-v4-flash-high": 1581,
+    "gemini-3.8-flash-high": 1580,
+    "step-5-preview-high": 1565,
+    "claude-opus-4-7-high": 1557
   },
   "price": {
     "qwen3.8-max-prime": {
@@ -381,8 +391,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.3,
-      "o": 1.2
+      "i": 0.035,
+      "o": 0.29
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.112,
@@ -429,8 +439,8 @@
       "o": 0.47
     },
     "deepseek-v4-flash-vision": {
-      "i": 0.22,
-      "o": 0.66
+      "i": 0.2156,
+      "o": 0.6468
     },
     "qwen3.8-27b": {
       "i": 0.42,
@@ -449,8 +459,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.264,
-      "o": 0.792
+      "i": 0.245,
+      "o": 3.5
     },
     "grok-4.6": {
       "i": 2.0,
@@ -665,8 +675,8 @@
       "o": 0.696
     },
     "deepseek-v4-flash": {
-      "i": 0.047,
-      "o": 0.0941
+      "i": 0.0469,
+      "o": 0.0938
     },
     "kimi-k2.6": {
       "i": 0.95,
