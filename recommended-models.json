@@ -263,14 +263,14 @@
   },
   "tiers": {
     "best": [
-      "deepseek/deepseek-v4-pro-high-20260813",
       "qwen/qwen3.8-27b",
-      "qwen/qwen3-235b-a22b",
+      "deepseek/deepseek-v4-pro-high-20260813",
+      "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-32b",
       "google/gemma-3-27b-it",
+      "google/gemma-4-31b-it",
       "deepseek/deepseek-v4-flash",
-      "qwen/qwen3-30b-a3b-instruct-2507",
-      "google/gemma-4-31b-it"
+      "qwen/qwen3-30b-a3b-instruct-2507"
     ],
     "value": [
       "qwen/qwen3.8-27b:free",
@@ -503,7 +503,7 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0115,
+      "i": 0.0188,
       "o": 1.28
     },
     "qwen3.7-flash": {
@@ -711,12 +711,12 @@
       "o": 0.4176
     },
     "deepseek-v4-flash": {
-      "i": 0.042,
-      "o": 0.084
+      "i": 0.028,
+      "o": 0.056
     },
     "kimi-k2.6": {
-      "i": 0.4341,
-      "o": 1.828
+      "i": 0.95,
+      "o": 4.0
     },
     "claude-opus-4.7": {
       "i": 5.0,
@@ -727,8 +727,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.09,
-      "o": 0.3
+      "i": 0.0675,
+      "o": 0.225
     },
     "gemma-4-31b-it": {
       "i": 0.09,
@@ -1023,7 +1023,7 @@
       "o": 3.25
     },
     "deepseek-v3.1-terminus": {
-      "i": 0.3,
+      "i": 0.27,
       "o": 1.0
     },
     "qwen3-coder-flash": {
