@@ -263,29 +263,29 @@
   },
   "tiers": {
     "best": [
+      "qwen/qwen3.8-27b",
+      "google/gemma-4-31b-it",
+      "google/gemma-4-26b-a4b-it",
+      "qwen/qwen3-coder-30b-a3b-instruct",
       "qwen/qwen3-235b-a22b-2507",
       "google/gemma-3-27b-it",
-      "qwen/qwen3-32b",
-      "google/gemma-4-31b-it",
       "qwen/qwen3.5-35b-a3b",
-      "mistralai/mistral-small-3.2-24b-instruct",
-      "qwen/qwen3-coder-30b-a3b-instruct",
-      "google/gemma-4-26b-a4b-it"
+      "qwen/qwen3-32b"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
+      "deepseek/deepseek-v4-flash",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-small-24b-instruct-2501",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.1-8b-instruct",
       "qwen/qwen3-32b",
-      "google/gemma-4-31b-it",
       "google/gemma-3-27b-it",
       "qwen/qwen3-235b-a22b-2507",
+      "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it"
     ],
     "fast": [
@@ -473,8 +473,8 @@
       "o": 0.6468
     },
     "qwen3.8-27b": {
-      "i": 0.425,
-      "o": 2.55
+      "i": 0.04,
+      "o": 2.3
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -497,8 +497,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0103,
-      "o": 1.28
+      "i": 0.018,
+      "o": 0.64
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -529,8 +529,8 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 0.64,
-      "o": 13.5
+      "i": 0.8,
+      "o": 10.0
     },
     "kimi-k3:batch": {
       "i": 2.28,
@@ -673,8 +673,8 @@
       "o": 1.125
     },
     "qwen3.6-35b-a3b": {
-      "i": 0.15,
-      "o": 1.0
+      "i": 0.1,
+      "o": 0.95
     },
     "qwen3.6-27b": {
       "i": 0.32,
@@ -697,16 +697,16 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.9483,
-      "o": 1.8966
+      "i": 0.2088,
+      "o": 0.4176
     },
     "deepseek-v4-flash": {
-      "i": 0.019,
+      "i": 0.03,
       "o": 1.28
     },
     "kimi-k2.6": {
-      "i": 0.465,
-      "o": 2.45
+      "i": 0.65,
+      "o": 3.41
     },
     "claude-opus-4.7": {
       "i": 5.0,
