@@ -277,16 +277,16 @@
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
       "deepseek/deepseek-v4-flash-0731",
-      "deepseek/deepseek-v4-flash",
       "qwen/qwen3.7-flash",
+      "google/gemma-4-31b-it",
+      "google/gemma-4-26b-a4b-it",
+      "qwen/qwen3.8-27b",
+      "qwen/qwen3-coder-30b-a3b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
-      "mistralai/mistral-nemo",
       "meta-llama/llama-3.1-8b-instruct",
       "qwen/qwen3-32b",
       "google/gemma-3-27b-it",
-      "qwen/qwen3-235b-a22b-2507",
-      "google/gemma-4-31b-it",
-      "google/gemma-4-26b-a4b-it"
+      "qwen/qwen3-235b-a22b-2507"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -421,8 +421,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.3,
-      "o": 1.2
+      "i": 0.15,
+      "o": 0.6
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.112,
@@ -497,7 +497,7 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.018,
+      "i": 0.016,
       "o": 0.64
     },
     "qwen3.7-flash": {
@@ -529,7 +529,7 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 0.8,
+      "i": 0.73,
       "o": 10.0
     },
     "kimi-k3:batch": {
@@ -697,8 +697,8 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.2088,
-      "o": 0.4176
+      "i": 0.4393,
+      "o": 0.8787
     },
     "deepseek-v4-flash": {
       "i": 0.03,
@@ -717,8 +717,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.0675,
-      "o": 0.225
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.09,
@@ -1209,8 +1209,8 @@
       "o": 0.6525
     },
     "llama-4-scout": {
-      "i": 0.1,
-      "o": 0.3
+      "i": 0.18,
+      "o": 0.59
     },
     "deepseek-chat-v3-0324": {
       "i": 0.29,
