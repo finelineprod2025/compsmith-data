@@ -263,38 +263,38 @@
   },
   "tiers": {
     "best": [
-      "qwen/qwen3.8-27b",
+      "qwen/qwen3-235b-a22b-2507",
+      "qwen/qwen3-coder-30b-a3b-instruct",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
-      "qwen/qwen3-coder-30b-a3b-instruct",
-      "qwen/qwen3-235b-a22b-2507",
       "google/gemma-3-27b-it",
       "qwen/qwen3-32b",
-      "deepseek/deepseek-v4.1-flash"
+      "deepseek/deepseek-v4.1-flash",
+      "anthropic/claude-haiku-5.5"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
       "deepseek/deepseek-v4-flash-0731",
-      "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4.1-flash",
-      "qwen/qwen3.8-27b",
+      "qwen/qwen3.7-flash",
+      "qwen/qwen3-coder-30b-a3b-instruct",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
-      "qwen/qwen3-coder-30b-a3b-instruct",
+      "qwen/qwen3-235b-a22b-2507",
       "mistralai/mistral-small-24b-instruct-2501",
       "meta-llama/llama-3.1-8b-instruct",
       "qwen/qwen3-32b",
-      "qwen/qwen3-235b-a22b-2507"
+      "anthropic/claude-haiku-5.5"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
       "deepseek/deepseek-v4-flash-0731",
-      "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4.1-flash",
+      "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.2-1b-instruct",
       "meta-llama/llama-3.1-8b-instruct",
@@ -429,8 +429,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.0202,
-      "o": 0.891
+      "i": 0.0238,
+      "o": 0.72
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.112,
@@ -481,8 +481,8 @@
       "o": 0.6468
     },
     "qwen3.8-27b": {
-      "i": 0.04,
-      "o": 2.3
+      "i": 0.24,
+      "o": 2.2
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -537,7 +537,7 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 0.62,
+      "i": 0.45,
       "o": 15.0
     },
     "kimi-k3:batch": {
@@ -577,20 +577,20 @@
       "o": 6.0
     },
     "gpt-5.6-sol-pro": {
-      "i": 2.0,
-      "o": 10.0
+      "i": 4.0,
+      "o": 20.0
     },
     "gpt-5.6-sol-pro:batch": {
-      "i": 1.0,
-      "o": 5.0
-    },
-    "gpt-5.6-sol": {
       "i": 2.0,
       "o": 10.0
     },
+    "gpt-5.6-sol": {
+      "i": 4.0,
+      "o": 20.0
+    },
     "gpt-5.6-sol:batch": {
-      "i": 1.0,
-      "o": 5.0
+      "i": 2.0,
+      "o": 10.0
     },
     "grok-4.5": {
       "i": 2.0,
@@ -681,8 +681,8 @@
       "o": 1.125
     },
     "qwen3.6-35b-a3b": {
-      "i": 0.1,
-      "o": 0.95
+      "i": 0.15,
+      "o": 1.0
     },
     "qwen3.6-27b": {
       "i": 0.32,
@@ -729,8 +729,8 @@
       "o": 0.3
     },
     "gemma-4-31b-it": {
-      "i": 0.09,
-      "o": 0.34
+      "i": 0.2,
+      "o": 0.4
     },
     "qwen3.6-plus": {
       "i": 0.325,
@@ -1053,8 +1053,8 @@
       "o": 0.2
     },
     "gpt-oss-120b": {
-      "i": 0.037,
-      "o": 0.17
+      "i": 0.15,
+      "o": 0.6
     },
     "gpt-oss-120b:batch": {
       "i": 0.0296,
@@ -1117,8 +1117,8 @@
       "o": 2.3
     },
     "mistral-small-3.2-24b-instruct": {
-      "i": 0.0938,
-      "o": 0.25
+      "i": 0.075,
+      "o": 0.2
     },
     "gemini-2.5-flash": {
       "i": 0.3,
