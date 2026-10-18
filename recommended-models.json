@@ -263,7 +263,7 @@
   },
   "tiers": {
     "best": [
-      "anthropic/claude-haiku-5.5",
+      "anthropic/claude-haiku-5.5:batch",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-next-80b-a3b-instruct",
       "qwen/qwen3-coder-30b-a3b-instruct",
@@ -286,7 +286,7 @@
       "meta-llama/llama-3.1-8b-instruct",
       "qwen/qwen3-32b",
       "google/gemma-3-27b-it",
-      "anthropic/claude-haiku-5.5"
+      "anthropic/claude-haiku-5.5:batch"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -433,8 +433,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.0648,
+      "o": 0.144
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.05,
@@ -509,8 +509,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0087,
-      "o": 0.2829
+      "i": 0.0086,
+      "o": 0.45
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -1097,7 +1097,7 @@
       "o": 0.28
     },
     "qwen3-30b-a3b-instruct-2507": {
-      "i": 0.1,
+      "i": 0.09,
       "o": 0.3
     },
     "qwen3-235b-a22b-thinking-2507": {
@@ -1250,7 +1250,7 @@
     },
     "gemma-3-27b-it": {
       "i": 0.08,
-      "o": 0.45
+      "o": 0.35
     },
     "mistral-saba": {
       "i": 0.2,
