@@ -276,7 +276,7 @@
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "deepseek/deepseek-v4-flash-0731",
+      "deepseek/deepseek-v4.1-flash",
       "qwen/qwen3.7-flash",
       "qwen/qwen3-coder-30b-a3b-instruct",
       "qwen/qwen3-235b-a22b-2507",
@@ -292,7 +292,7 @@
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "deepseek/deepseek-v4-flash-0731",
+      "deepseek/deepseek-v4.1-flash",
       "qwen/qwen3.7-flash",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.2-1b-instruct",
@@ -433,8 +433,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.0648,
-      "o": 0.144
+      "i": 0.04,
+      "o": 0.08
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.05,
@@ -509,8 +509,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0086,
-      "o": 0.45
+      "i": 0.15,
+      "o": 0.15
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -541,7 +541,7 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 0.304,
+      "i": 0.239,
       "o": 11.936
     },
     "kimi-k3:batch": {
@@ -713,8 +713,8 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 0.2088,
-      "o": 0.4176
+      "i": 0.9553,
+      "o": 1.9105
     },
     "deepseek-v4-flash": {
       "i": 0.091,
@@ -733,8 +733,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.0675,
-      "o": 0.225
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -801,8 +801,8 @@
       "o": 1.0
     },
     "qwen3.5-27b": {
-      "i": 0.26,
-      "o": 2.6
+      "i": 0.27,
+      "o": 2.16
     },
     "qwen3.5-122b-a10b": {
       "i": 0.26,
@@ -1280,10 +1280,6 @@
       "i": 0.05,
       "o": 0.08
     },
-    "deepseek-r1": {
-      "i": 0.7,
-      "o": 2.5
-    },
     "deepseek-chat": {
       "i": 0.32,
       "o": 0.89
@@ -1321,8 +1317,8 @@
       "o": 0.201
     },
     "llama-3.2-3b-instruct": {
-      "i": 0.05,
-      "o": 0.33
+      "i": 0.0509,
+      "o": 0.335
     },
     "qwen-2.5-72b-instruct": {
       "i": 0.36,
