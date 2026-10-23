@@ -263,14 +263,14 @@
   },
   "tiers": {
     "best": [
-      "anthropic/claude-haiku-5.5:batch",
+      "anthropic/claude-haiku-5.5",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-next-80b-a3b-instruct",
       "qwen/qwen3-coder-30b-a3b-instruct",
       "google/gemma-4-31b-it",
       "google/gemma-4-26b-a4b-it",
       "google/gemma-3-27b-it",
-      "mistral-small-3.2-24b-instruct"
+      "mistralai/mistral-small-3.2-24b-instruct"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
@@ -485,8 +485,8 @@
       "o": 0.6468
     },
     "qwen3.8-27b": {
-      "i": 0.04,
-      "o": 1.35
+      "i": 0.2,
+      "o": 2.5
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -777,8 +777,8 @@
       "o": 0.3
     },
     "qwen3.5-9b": {
-      "i": 0.08,
-      "o": 0.13
+      "i": 0.17,
+      "o": 0.25
     },
     "gpt-5.4-pro": {
       "i": 30.0,
@@ -1121,8 +1121,8 @@
       "o": 2.3
     },
     "mistral-small-3.2-24b-instruct": {
-      "i": 0.0938,
-      "o": 0.25
+      "i": 0.075,
+      "o": 0.2
     },
     "gemini-2.5-flash": {
       "i": 0.3,
