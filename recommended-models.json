@@ -266,8 +266,8 @@
       "anthropic/claude-haiku-5.5",
       "openai/gpt-6-luna-pro",
       "openai/gpt-6-luna",
-      "qwen/qwen3-235b-a22b-2507",
       "deepseek/deepseek-v4-flash",
+      "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-next-80b-a3b-instruct",
       "qwen/qwen3-coder-30b-a3b-instruct",
       "google/gemma-4-26b-a4b-it"
@@ -453,8 +453,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.14,
-      "o": 0.42
+      "i": 0.045,
+      "o": 0.5
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.05,
@@ -561,8 +561,8 @@
       "o": 1.25
     },
     "kimi-k3": {
-      "i": 0.2,
-      "o": 20.0
+      "i": 0.239,
+      "o": 10.8
     },
     "kimi-k3:batch": {
       "i": 2.28,
@@ -629,7 +629,7 @@
       "o": 5.0
     },
     "kimi-k2.7-code": {
-      "i": 0.6725,
+      "i": 0.56,
       "o": 3.1
     },
     "claude-fable-5": {
@@ -1020,10 +1020,6 @@
       "i": 0.195,
       "o": 0.975
     },
-    "qwen3-next-80b-a3b-thinking": {
-      "i": 0.15,
-      "o": 1.2
-    },
     "qwen3-next-80b-a3b-instruct": {
       "i": 0.09,
       "o": 1.1
@@ -1160,10 +1156,6 @@
       "i": 0.08,
       "o": 0.28
     },
-    "o4-mini-high": {
-      "i": 1.1,
-      "o": 4.4
-    },
     "o3": {
       "i": 2.0,
       "o": 8.0
@@ -1171,10 +1163,6 @@
     "o3:batch": {
       "i": 1.0,
       "o": 4.0
-    },
-    "o4-mini": {
-      "i": 1.1,
-      "o": 4.4
     },
     "o4-mini:batch": {
       "i": 0.55,
@@ -1216,10 +1204,6 @@
       "i": 0.29,
       "o": 1.14
     },
-    "o1-pro": {
-      "i": 150.0,
-      "o": 600.0
-    },
     "mistral-small-3.1-24b-instruct": {
       "i": 0.351,
       "o": 0.555
@@ -1244,10 +1228,6 @@
       "i": 0.2,
       "o": 0.6
     },
-    "o3-mini-high": {
-      "i": 1.1,
-      "o": 4.4
-    },
     "qwen2.5-vl-72b-instruct": {
       "i": 0.8,
       "o": 1.0
@@ -1255,10 +1235,6 @@
     "qwen-plus": {
       "i": 0.26,
       "o": 0.78
-    },
-    "o3-mini": {
-      "i": 1.1,
-      "o": 4.4
     },
     "o3-mini:batch": {
       "i": 0.55,
@@ -1271,10 +1247,6 @@
     "deepseek-chat": {
       "i": 0.2574,
       "o": 1.0287
-    },
-    "o1": {
-      "i": 15.0,
-      "o": 60.0
     },
     "command-r7b-12-2024": {
       "i": 0.0375,
@@ -1325,8 +1297,8 @@
       "o": 0.4
     },
     "llama-3.1-8b-instruct": {
-      "i": 0.02,
-      "o": 0.04
+      "i": 0.05,
+      "o": 0.08
     },
     "mistral-nemo": {
       "i": 0.029,
@@ -1351,10 +1323,6 @@
     "mixtral-8x22b-instruct": {
       "i": 2.0,
       "o": 6.0
-    },
-    "gpt-4-turbo": {
-      "i": 10.0,
-      "o": 30.0
     },
     "gpt-4-turbo:batch": {
       "i": 5.0,
