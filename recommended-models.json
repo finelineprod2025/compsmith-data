@@ -1,6 +1,6 @@
 {
   "_comment": "Public CompSmith model recommendations. Changes live within 24 h. 'best'=top performers, 'value'=cost-effective picks, 'fast'=low-latency picks. Providers are shown in CompSmith even before a user saves an API key.",
-  "_updated": "2026-10",
+  "_updated": "2026-11",
   "providers": {
     "xai": {
       "name": "xAI",
@@ -283,10 +283,10 @@
       "openai/gpt-6-luna:batch",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-coder-30b-a3b-instruct",
-      "google/gemma-4-26b-a4b-it",
-      "openai/gpt-5-nano:batch",
       "mistralai/mistral-small-24b-instruct-2501",
-      "qwen/qwen3-32b"
+      "qwen/qwen3-32b",
+      "openai/gpt-5-nano:batch",
+      "openai/gpt-4o-mini:batch"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -505,8 +505,8 @@
       "o": 0.6468
     },
     "qwen3.8-27b": {
-      "i": 0.04,
-      "o": 2.3
+      "i": 0.15,
+      "o": 1.875
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -521,8 +521,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.66,
-      "o": 1.98
+      "i": 0.115,
+      "o": 4.0
     },
     "grok-4.6": {
       "i": 2.0,
@@ -1061,16 +1061,16 @@
       "o": 0.2
     },
     "gpt-oss-120b": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.018,
+      "o": 0.065
     },
     "gpt-oss-120b:batch": {
       "i": 0.0296,
       "o": 0.136
     },
     "gpt-oss-20b": {
-      "i": 0.018,
-      "o": 0.09
+      "i": 0.03,
+      "o": 0.13
     },
     "gpt-oss-20b:batch": {
       "i": 0.024,
