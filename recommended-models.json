@@ -266,27 +266,27 @@
       "anthropic/claude-haiku-5.5",
       "openai/gpt-6-luna-pro",
       "openai/gpt-6-luna",
-      "deepseek/deepseek-v4-flash",
+      "deepseek/deepseek-v4.1-flash",
       "qwen/qwen3-235b-a22b-2507",
-      "qwen/qwen3-next-80b-a3b-instruct",
       "qwen/qwen3-coder-30b-a3b-instruct",
-      "google/gemma-4-26b-a4b-it"
+      "google/gemma-4-26b-a4b-it",
+      "mistralai/mistral-small-3.2-24b-instruct"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4.1-flash:batch",
       "anthropic/claude-haiku-5.5:batch",
       "openai/gpt-6-luna-pro:batch",
       "openai/gpt-6-luna:batch",
+      "qwen/qwen3.7-flash",
+      "openai/gpt-5-nano:batch",
+      "openai/gpt-4o-mini:batch",
       "qwen/qwen3-235b-a22b-2507",
       "qwen/qwen3-coder-30b-a3b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
-      "qwen/qwen3-32b",
-      "openai/gpt-5-nano:batch",
-      "openai/gpt-4o-mini:batch"
+      "qwen/qwen3-32b"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -529,8 +529,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.119,
-      "o": 0.238
+      "i": 0.059,
+      "o": 0.3
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -753,8 +753,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.075,
-      "o": 0.224
+      "i": 0.094,
+      "o": 0.283
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -1021,7 +1021,7 @@
       "o": 0.975
     },
     "qwen3-next-80b-a3b-instruct": {
-      "i": 0.09,
+      "i": 0.1,
       "o": 1.1
     },
     "kimi-k2-0905": {
@@ -1089,8 +1089,8 @@
       "o": 0.9
     },
     "qwen3-coder-30b-a3b-instruct": {
-      "i": 0.07,
-      "o": 0.28
+      "i": 0.15,
+      "o": 0.6
     },
     "qwen3-30b-a3b-instruct-2507": {
       "i": 0.1,
@@ -1253,8 +1253,8 @@
       "o": 0.15
     },
     "llama-3.3-70b-instruct": {
-      "i": 0.1,
-      "o": 0.32
+      "i": 0.2,
+      "o": 0.52
     },
     "gpt-4o": {
       "i": 2.5,
@@ -1293,8 +1293,8 @@
       "o": 10.0
     },
     "llama-3.1-70b-instruct": {
-      "i": 0.4,
-      "o": 0.4
+      "i": 0.72,
+      "o": 0.72
     },
     "llama-3.1-8b-instruct": {
       "i": 0.05,
