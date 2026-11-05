@@ -267,26 +267,26 @@
       "openai/gpt-6-luna-pro",
       "openai/gpt-6-luna",
       "deepseek/deepseek-v4.1-flash",
-      "google/gemma-4-26b-a4b-it",
-      "mistralai/mistral-small-3.2-24b-instruct",
+      "openai/gpt-5-nano",
       "qwen/qwen3.6-35b-a3b",
-      "openai/gpt-5-nano"
+      "google/gemma-4-26b-a4b-it",
+      "mistralai/mistral-small-3.2-24b-instruct"
     ],
     "value": [
       "google/gemma-4-31b-it:free",
       "google/gemma-4-26b-a4b-it:free",
       "cohere/north-mini-code:free",
-      "deepseek/deepseek-v4.1-flash:batch",
       "anthropic/claude-haiku-5.5:batch",
       "openai/gpt-6-luna-pro:batch",
       "openai/gpt-6-luna:batch",
-      "qwen/qwen3.7-flash",
       "openai/gpt-5-nano:batch",
+      "qwen/qwen3.7-flash",
+      "deepseek/deepseek-v4-flash",
       "openai/gpt-4o-mini:batch",
       "mistralai/mistral-small-24b-instruct-2501",
+      "cohere/command-r7b-12-2024",
       "qwen/qwen3-32b",
-      "google/gemma-3-27b-it",
-      "cohere/command-r7b-12-2024"
+      "google/gemma-3-27b-it"
     ],
     "fast": [
       "google/gemma-4-31b-it:free",
@@ -296,8 +296,8 @@
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.2-1b-instruct",
       "google/gemma-3-4b-it",
-      "meta-llama/llama-3.1-8b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
+      "meta-llama/llama-3.1-8b-instruct",
       "cohere/command-r7b-12-2024"
     ]
   },
@@ -461,8 +461,8 @@
       "o": 0.5
     },
     "deepseek-v4.1-flash:batch": {
-      "i": 0.05,
-      "o": 0.15
+      "i": 0.112,
+      "o": 0.336
     },
     "gpt-6-astra": {
       "i": 10.0,
@@ -525,8 +525,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.115,
-      "o": 4.6
+      "i": 0.103,
+      "o": 4.11
     },
     "grok-4.6": {
       "i": 2.0,
@@ -537,7 +537,7 @@
       "o": 4.8
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.059,
+      "i": 0.0566,
       "o": 0.3
     },
     "qwen3.7-flash": {
@@ -761,8 +761,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.085,
-      "o": 0.254
+      "i": 0.061,
+      "o": 0.184
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -1029,7 +1029,7 @@
       "o": 0.975
     },
     "qwen3-next-80b-a3b-instruct": {
-      "i": 0.1,
+      "i": 0.09,
       "o": 1.1
     },
     "kimi-k2-0905": {
@@ -1201,8 +1201,8 @@
       "o": 0.2
     },
     "llama-4-maverick": {
-      "i": 0.1875,
-      "o": 0.6525
+      "i": 0.35,
+      "o": 1.0
     },
     "llama-4-scout": {
       "i": 0.1,
@@ -1261,8 +1261,8 @@
       "o": 0.15
     },
     "llama-3.3-70b-instruct": {
-      "i": 0.1,
-      "o": 0.32
+      "i": 0.2,
+      "o": 0.52
     },
     "gpt-4o": {
       "i": 2.5,
