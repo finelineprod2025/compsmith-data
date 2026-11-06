@@ -268,7 +268,7 @@
       "openai/gpt-6-luna",
       "deepseek/deepseek-v4.1-flash",
       "openai/gpt-5-nano",
-      "qwen/qwen3.6-35b-a3b",
+      "qwen/qwen3-next-80b-a3b-instruct",
       "google/gemma-4-26b-a4b-it",
       "mistralai/mistral-small-3.2-24b-instruct"
     ],
@@ -324,6 +324,14 @@
     "muse-spark-1.3 (xhigh)": 1626
   },
   "price": {
+    "gemini-omni-1.2-flash": {
+      "i": 1.5,
+      "o": 9.0
+    },
+    "gemini-omni-1.1-flash": {
+      "i": 1.5,
+      "o": 9.0
+    },
     "gpt-6.1-terra-pro": {
       "i": 1.0,
       "o": 5.0
@@ -457,8 +465,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.045,
-      "o": 0.5
+      "i": 0.051,
+      "o": 0.567
     },
     "deepseek-v4.1-flash:batch": {
       "i": 0.112,
@@ -505,8 +513,8 @@
       "o": 0.47
     },
     "deepseek-v4-flash-vision": {
-      "i": 0.2156,
-      "o": 0.6468
+      "i": 0.44,
+      "o": 1.32
     },
     "qwen3.8-27b": {
       "i": 0.15,
@@ -525,8 +533,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.103,
-      "o": 4.11
+      "i": 0.1165,
+      "o": 4.66
     },
     "grok-4.6": {
       "i": 2.0,
@@ -537,7 +545,7 @@
       "o": 4.8
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0566,
+      "i": 0.058,
       "o": 0.3
     },
     "qwen3.7-flash": {
@@ -741,8 +749,8 @@
       "o": 15.0
     },
     "deepseek-v4-pro": {
-      "i": 1.6,
-      "o": 3.2
+      "i": 0.894,
+      "o": 1.788
     },
     "deepseek-v4-flash": {
       "i": 0.091,
@@ -761,8 +769,8 @@
       "o": 12.5
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.061,
-      "o": 0.184
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -1069,8 +1077,8 @@
       "o": 0.2
     },
     "gpt-oss-120b": {
-      "i": 0.15,
-      "o": 0.6
+      "i": 0.025,
+      "o": 0.093
     },
     "gpt-oss-120b:batch": {
       "i": 0.0296,
@@ -1253,16 +1261,16 @@
       "o": 0.08
     },
     "deepseek-chat": {
-      "i": 0.2574,
-      "o": 1.0287
+      "i": 0.32,
+      "o": 0.89
     },
     "command-r7b-12-2024": {
       "i": 0.0375,
       "o": 0.15
     },
     "llama-3.3-70b-instruct": {
-      "i": 0.2,
-      "o": 0.52
+      "i": 0.59,
+      "o": 0.79
     },
     "gpt-4o": {
       "i": 2.5,
