@@ -277,25 +277,28 @@
       "moonshotai/kimi-k3",
       "x-ai/grok-4.7",
       "deepseek/deepseek-v4-flash",
-      "deepseek/deepseek-v4-flash-0731",
       "qwen/qwen3.7-flash",
+      "deepseek/deepseek-v4.1-flash",
       "qwen/qwen3.5-flash-02-23",
+      "deepseek/deepseek-v4-flash-0731",
       "mistralai/mistral-small-3.2-24b-instruct",
-      "mistralai/mistral-small-24b-instruct-2501",
       "google/gemma-4-26b-a4b-it",
+      "meta-llama/llama-4-scout",
+      "mistralai/mistral-small-24b-instruct-2501",
       "qwen/qwen3.5-9b",
-      "meta-llama/llama-4-scout"
+      "mistralai/ministral-8b-2512"
     ],
     "fast": [
-      "qwen/qwen3.7-flash",
+      "qwen/qwen3.5-9b",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.1-8b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
-      "google/gemma-3-4b-it",
       "openai/gpt-oss-20b",
+      "qwen/qwen3.7-flash",
+      "google/gemma-3-4b-it",
+      "deepseek/deepseek-v4.1-flash",
       "cohere/command-r7b-12-2024",
-      "meta-llama/llama-3.2-1b-instruct",
-      "deepseek/deepseek-v4-flash-0731"
+      "meta-llama/llama-3.2-3b-instruct"
     ]
   },
   "rank": {
@@ -352,12 +355,12 @@
       "o": 5.0
     },
     "kimi-k3.1-pro": {
-      "i": 0.2375,
-      "o": 8.4114
+      "i": 2.0,
+      "o": 10.0
     },
     "deepseek-v4.1-flash-1017": {
-      "i": 0.3,
-      "o": 1.2
+      "i": 0.038,
+      "o": 0.5
     },
     "gemini-4-argon": {
       "i": 2.0,
@@ -420,8 +423,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.039,
-      "o": 1.2
+      "i": 0.0507,
+      "o": 0.2028
     },
     "gpt-6-astra": {
       "i": 10.0,
@@ -492,7 +495,7 @@
       "o": 2.5
     },
     "kimi-k3": {
-      "i": 0.192,
+      "i": 0.2,
       "o": 16.0
     },
     "gpt-5.6-luna-pro": {
@@ -596,8 +599,8 @@
       "o": 30.0
     },
     "deepseek-v4-pro": {
-      "i": 0.9553,
-      "o": 1.9105
+      "i": 0.9,
+      "o": 1.5
     },
     "deepseek-v4-flash": {
       "i": 0.09,
@@ -612,8 +615,8 @@
       "o": 25.0
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.0765,
-      "o": 0.255
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -644,8 +647,8 @@
       "o": 0.6
     },
     "qwen3.5-9b": {
-      "i": 0.077,
-      "o": 0.113
+      "i": 0.024,
+      "o": 0.035
     },
     "gpt-5.4-pro": {
       "i": 30.0,
