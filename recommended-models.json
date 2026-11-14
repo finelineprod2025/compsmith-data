@@ -276,29 +276,29 @@
       "qwen/qwen3.8-max-0902",
       "moonshotai/kimi-k3",
       "x-ai/grok-4.7",
-      "deepseek/deepseek-v4-flash",
-      "qwen/qwen3.7-flash",
       "deepseek/deepseek-v4.1-flash",
-      "qwen/qwen3.5-flash-02-23",
+      "qwen/qwen3.7-flash",
+      "deepseek/deepseek-v4-flash",
       "deepseek/deepseek-v4-flash-0731",
-      "mistralai/mistral-small-3.2-24b-instruct",
+      "qwen/qwen3.5-flash-02-23",
       "google/gemma-4-26b-a4b-it",
       "meta-llama/llama-4-scout",
+      "mistralai/mistral-small-3.2-24b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
-      "qwen/qwen3.5-9b",
-      "mistralai/ministral-8b-2512"
+      "mistralai/ministral-8b-2512",
+      "qwen/qwen3-32b"
     ],
     "fast": [
-      "qwen/qwen3.5-9b",
       "mistralai/mistral-nemo",
       "meta-llama/llama-3.1-8b-instruct",
-      "mistralai/mistral-small-24b-instruct-2501",
       "openai/gpt-oss-20b",
       "qwen/qwen3.7-flash",
+      "mistralai/mistral-small-24b-instruct-2501",
       "google/gemma-3-4b-it",
       "deepseek/deepseek-v4.1-flash",
       "cohere/command-r7b-12-2024",
-      "meta-llama/llama-3.2-3b-instruct"
+      "meta-llama/llama-3.2-3b-instruct",
+      "mistralai/ministral-3b-2512"
     ]
   },
   "rank": {
@@ -495,7 +495,7 @@
       "o": 2.5
     },
     "kimi-k3": {
-      "i": 0.2,
+      "i": 0.192,
       "o": 16.0
     },
     "gpt-5.6-luna-pro": {
@@ -519,8 +519,8 @@
       "o": 20.0
     },
     "gpt-5.6-sol": {
-      "i": 4.4,
-      "o": 22.0
+      "i": 4.0,
+      "o": 20.0
     },
     "grok-4.5": {
       "i": 2.0,
@@ -615,8 +615,8 @@
       "o": 25.0
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.09,
-      "o": 0.3
+      "i": 0.0675,
+      "o": 0.225
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -647,8 +647,8 @@
       "o": 0.6
     },
     "qwen3.5-9b": {
-      "i": 0.024,
-      "o": 0.035
+      "i": 0.17,
+      "o": 0.25
     },
     "gpt-5.4-pro": {
       "i": 30.0,
@@ -999,8 +999,8 @@
       "o": 0.08
     },
     "deepseek-chat": {
-      "i": 0.32,
-      "o": 0.89
+      "i": 0.2574,
+      "o": 1.0287
     },
     "command-r7b-12-2024": {
       "i": 0.0375,
@@ -1027,8 +1027,8 @@
       "o": 0.201
     },
     "llama-3.2-3b-instruct": {
-      "i": 0.05,
-      "o": 0.33
+      "i": 0.0509,
+      "o": 0.335
     },
     "qwen-2.5-72b-instruct": {
       "i": 0.36,
