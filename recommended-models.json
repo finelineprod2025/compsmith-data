@@ -279,25 +279,25 @@
       "deepseek/deepseek-v4.1-flash",
       "deepseek/deepseek-v4-flash",
       "qwen/qwen3.7-flash",
+      "deepseek/deepseek-v4-flash-0731",
       "meta-llama/llama-4-scout",
       "google/gemma-4-26b-a4b-it",
       "qwen/qwen3.5-flash-02-23",
       "mistralai/mistral-small-3.2-24b-instruct",
-      "deepseek/deepseek-v4-flash-0731",
       "qwen/qwen3-32b",
       "mistralai/ministral-8b-2512",
       "mistralai/mistral-small-24b-instruct-2501"
     ],
     "fast": [
-      "qwen/qwen3.5-9b",
       "meta-llama/llama-3.1-8b-instruct",
-      "mistralai/mistral-nemo",
       "openai/gpt-oss-20b",
+      "mistralai/mistral-nemo",
       "qwen/qwen3.7-flash",
       "cohere/command-r7b-12-2024",
-      "mistralai/ministral-3b-2512",
       "deepseek/deepseek-v4.1-flash",
       "google/gemma-3-4b-it",
+      "mistralai/ministral-3b-2512",
+      "qwen/qwen3.5-9b",
       "meta-llama/llama-3.2-3b-instruct"
     ]
   },
@@ -334,6 +334,10 @@
     "muse-spark-1.3-xhigh": 1626
   },
   "price": {
+    "qwen4-max": {
+      "i": 1.5,
+      "o": 4.5
+    },
     "gemini-4-hydrogen": {
       "i": 1.5,
       "o": 7.5
@@ -475,8 +479,8 @@
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0434,
-      "o": 0.3
+      "i": 0.06,
+      "o": 0.18
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -519,8 +523,8 @@
       "o": 20.0
     },
     "gpt-5.6-sol": {
-      "i": 4.4,
-      "o": 22.0
+      "i": 4.0,
+      "o": 20.0
     },
     "grok-4.5": {
       "i": 2.0,
@@ -615,8 +619,8 @@
       "o": 25.0
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.0675,
-      "o": 0.225
+      "i": 0.09,
+      "o": 0.3
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -647,8 +651,8 @@
       "o": 0.6
     },
     "qwen3.5-9b": {
-      "i": 0.022,
-      "o": 0.033
+      "i": 0.093,
+      "o": 0.137
     },
     "gpt-5.4-pro": {
       "i": 30.0,
@@ -695,8 +699,8 @@
       "o": 1.56
     },
     "qwen3.5-397b-a17b": {
-      "i": 0.6,
-      "o": 3.6
+      "i": 0.45,
+      "o": 3.0
     },
     "claude-opus-4.6": {
       "i": 5.0,
@@ -851,8 +855,8 @@
       "o": 0.6
     },
     "gpt-oss-20b": {
-      "i": 0.03,
-      "o": 0.13
+      "i": 0.018,
+      "o": 0.09
     },
     "claude-opus-4.1": {
       "i": 15.0,
