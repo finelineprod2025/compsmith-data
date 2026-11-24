@@ -1,71 +1,9 @@
 {
-  "_comment": "Public CompSmith model recommendations. Changes live within 24 h. 'best'=top performers, 'value'=cost-effective picks, 'fast'=low-latency picks. Providers are shown in CompSmith even before a user saves an API key.",
+  "_comment": "Public CompSmith model recommendations. Changes live within 24 h. 'best'=top performers, 'value'=cost-effective picks, 'fast'=low-latency picks.",
   "_updated": "2026-11",
   "providers": {
-    "xai": {
-      "name": "xAI",
-      "hint": "console.x.ai",
-      "keyUrl": "https://console.x.ai/",
-      "baseUrl": "https://api.x.ai/v1",
-      "def": "grok-4",
-      "models": [
-        "grok-4",
-        "grok-3",
-        "grok-3-mini"
-      ]
-    },
-    "deepseek": {
-      "name": "DeepSeek",
-      "hint": "platform.deepseek.com",
-      "keyUrl": "https://platform.deepseek.com/api_keys",
-      "baseUrl": "https://api.deepseek.com/v1",
-      "def": "deepseek-reasoner",
-      "models": [
-        "deepseek-reasoner",
-        "deepseek-chat"
-      ]
-    },
-    "groq": {
-      "name": "Groq",
-      "hint": "console.groq.com",
-      "keyUrl": "https://console.groq.com/keys",
-      "baseUrl": "https://api.groq.com/openai/v1",
-      "def": "qwen/qwen3-72b",
-      "models": [
-        "qwen/qwen3-72b",
-        "llama-3.3-70b-versatile",
-        "openai/gpt-oss-120b"
-      ]
-    },
-    "cerebras": {
-      "name": "Cerebras",
-      "hint": "cloud.cerebras.ai",
-      "keyUrl": "https://cloud.cerebras.ai/platform/",
-      "baseUrl": "https://api.cerebras.ai/v1",
-      "def": "qwen-3-coder-480b",
-      "models": [
-        "qwen-3-coder-480b",
-        "qwen-3-235b-a22b",
-        "llama3.1-70b"
-      ]
-    },
-    "cohere": {
-      "name": "Cohere",
-      "hint": "dashboard.cohere.com",
-      "keyUrl": "https://dashboard.cohere.com/api-keys",
-      "baseUrl": "https://api.cohere.com/compatibility/v1",
-      "def": "command-a-03-2025",
-      "models": [
-        "command-a-03-2025",
-        "command-r-plus-08-2024",
-        "command-r-08-2024"
-      ]
-    },
     "openrouter": {
-      "name": "OpenRouter",
-      "hint": "openrouter.ai",
-      "keyUrl": "https://openrouter.ai/keys",
-      "baseUrl": "https://openrouter.ai/api/v1",
+      "name": "CompSmith",
       "def": "anthropic/claude-sonnet-5.5",
       "models": [
         "anthropic/claude-sonnet-5.5",
@@ -81,7 +19,7 @@
     "models": [
       {
         "id": "google/gemini-3.1-flash-image-preview",
-        "name": "Nano Banana 2 (OpenRouter)",
+        "name": "Nano Banana 2",
         "provider": "openrouter",
         "sizes": [
           "0.5K",
@@ -94,56 +32,8 @@
         "experimental": true
       },
       {
-        "id": "gemini-3.1-flash-image-preview",
-        "name": "Nano Banana 2",
-        "provider": "google",
-        "sizes": [
-          "1K",
-          "2K",
-          "4K"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 20
-      },
-      {
-        "id": "gemini-3-pro-image-preview",
-        "name": "Nano Banana Pro",
-        "provider": "google",
-        "sizes": [
-          "1K",
-          "2K",
-          "4K"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 30
-      },
-      {
-        "id": "gpt-image-1",
-        "name": "GPT-Image-1",
-        "provider": "openai",
-        "sizes": [
-          "1024x1024",
-          "1536x1024",
-          "1024x1536"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 40
-      },
-      {
-        "id": "recraft/recraft-v3",
-        "name": "Recraft V3 (OpenRouter)",
-        "provider": "openrouter",
-        "sizes": [
-          "1K",
-          "2K"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 50,
-        "experimental": true
-      },
-      {
         "id": "google/gemini-2.5-flash-image",
-        "name": "Nano Banana (OpenRouter)",
+        "name": "Nano Banana",
         "provider": "openrouter",
         "sizes": [
           "1K"
@@ -151,40 +41,6 @@
         "pricePerImage": 0.03,
         "rank": 60,
         "experimental": true
-      },
-      {
-        "id": "gemini-3.1-flash-image",
-        "name": "Nano Banana 2 (alt)",
-        "provider": "google",
-        "sizes": [
-          "1K",
-          "2K",
-          "4K"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 70
-      },
-      {
-        "id": "gemini-2.5-flash-image",
-        "name": "Nano Banana",
-        "provider": "google",
-        "sizes": [
-          "1K"
-        ],
-        "pricePerImage": 0.03,
-        "rank": 80
-      },
-      {
-        "id": "dall-e-3",
-        "name": "DALL-E 3",
-        "provider": "openai",
-        "sizes": [
-          "1024x1024",
-          "1792x1024",
-          "1024x1792"
-        ],
-        "pricePerImage": 0.04,
-        "rank": 90
       }
     ]
   },
@@ -203,7 +59,6 @@
     "claude-3-5-sonnet-latest": 1.0,
     "claude-3-5-haiku-latest": 1.0,
     "claude-haiku-4.5": 1.0,
-    "anthropic/claude-sonnet-4": 1.0,
     "grok-4": 0.1,
     "grok-3": 0.2,
     "command-a-03-2025": 0.3,
@@ -218,7 +73,6 @@
     "google/gemini-2.5-pro": 0.2,
     "qwen-3-coder-480b": 0.1,
     "qwen-3-235b-a22b": 0.2,
-    "qwen/qwen3-72b": 0.2,
     "llama-3.3-70b-versatile": 0.2
   },
   "stt": {
@@ -228,36 +82,6 @@
         "id": "browser",
         "name": "Browser built-in (free)",
         "provider": "browser"
-      },
-      {
-        "id": "gemini-2.5-flash",
-        "name": "Gemini 2.5 Flash",
-        "provider": "google"
-      },
-      {
-        "id": "whisper-1",
-        "name": "OpenAI Whisper",
-        "provider": "openai"
-      },
-      {
-        "id": "gpt-4o-mini-transcribe",
-        "name": "GPT-4o mini Transcribe",
-        "provider": "openai"
-      },
-      {
-        "id": "gpt-4o-transcribe",
-        "name": "GPT-4o Transcribe",
-        "provider": "openai"
-      },
-      {
-        "id": "whisper-large-v3",
-        "name": "Whisper Large v3 (Groq)",
-        "provider": "groq"
-      },
-      {
-        "id": "whisper-large-v3-turbo",
-        "name": "Whisper v3 Turbo (Groq)",
-        "provider": "groq"
       }
     ]
   },
