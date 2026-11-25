@@ -87,75 +87,236 @@
   },
   "tiers": {
     "best": [
+      "anthropic/claude-fable-5.2",
       "anthropic/claude-opus-5.5",
-      "openai/gpt-6-astra",
       "anthropic/claude-sonnet-5.5",
+      "google/gemini-4-carbon",
+      "openai/gpt-6.2-sol",
+      "qwen/qwen4-max",
       "openai/gpt-6.1-sol",
-      "anthropic/claude-fable-5.1",
-      "anthropic/claude-opus-5",
-      "openai/gpt-6-sol",
-      "google/gemini-4-argon"
+      "google/gemini-4-hydrogen"
     ],
     "value": [
-      "qwen/qwen3.8-max-0902",
+      "openai/gpt-6.1-terra",
+      "moonshotai/kimi-k3.1-pro",
+      "deepseek/deepseek-v4.1-flash",
       "moonshotai/kimi-k3",
       "x-ai/grok-4.7",
-      "qwen/qwen3.7-flash",
-      "deepseek/deepseek-v4.1-flash",
+      "anthropic/claude-haiku-5.5",
+      "qwen/qwen3.8-27b",
+      "google/gemini-3.8-flash",
       "deepseek/deepseek-v4-flash",
-      "mistralai/mistral-small-3.2-24b-instruct",
-      "qwen/qwen3.5-flash-02-23",
-      "deepseek/deepseek-v4-flash-0731",
-      "google/gemma-4-26b-a4b-it",
-      "qwen/qwen3-coder-30b-a3b-instruct",
-      "meta-llama/llama-4-scout",
-      "qwen/qwen3-32b",
-      "mistralai/mistral-small-24b-instruct-2501"
+      "openai/gpt-6-luna",
+      "google/gemini-3.6-flash",
+      "qwen/qwen3.7-flash",
+      "deepseek/deepseek-v4-pro",
+      "qwen/qwen3.6-plus"
     ],
     "fast": [
-      "meta-llama/llama-3.1-8b-instruct",
-      "openai/gpt-oss-20b",
       "mistralai/mistral-nemo",
-      "qwen/qwen3.7-flash",
-      "mistralai/mistral-small-24b-instruct-2501",
       "google/gemma-3-4b-it",
+      "meta-llama/llama-3.1-8b-instruct",
+      "mistralai/mistral-small-24b-instruct-2501",
+      "openai/gpt-oss-20b",
+      "qwen/qwen3.7-flash",
       "cohere/command-r7b-12-2024",
       "google/gemma-3-12b-it",
       "mistralai/ministral-3b-2512",
-      "meta-llama/llama-3.2-3b-instruct"
+      "deepseek/deepseek-v4-flash-0731"
     ]
   },
   "rank": {
-    "claude-opus-5.5-max": 1814,
-    "claude-opus-5.5": 1814,
-    "gpt-6-astra-max": 1788,
-    "gpt-6-astra": 1788,
+    "claude-fable-5.2-xhigh": 1822,
+    "claude-fable-5.2": 1822,
+    "claude-opus-5.5-max": 1820,
+    "claude-opus-5.5": 1820,
     "claude-sonnet-5.5-xhigh": 1773,
     "claude-sonnet-5.5": 1773,
-    "gpt-6.1-sol-max": 1757,
-    "gpt-6.1-sol": 1757,
-    "claude-fable-5.1-max": 1745,
-    "claude-fable-5.1": 1745,
-    "claude-sonnet-5.5-high": 1716,
+    "gemini-4-carbon-high": 1769,
+    "gemini-4-carbon": 1769,
+    "gemini-4-neon-xhigh": 1765,
+    "gemini-4-neon": 1765,
+    "gpt-6-astra-max": 1764,
+    "gpt-6-astra": 1764,
+    "gpt-6.2-astra-max": 1761,
+    "gpt-6.2-astra": 1761,
+    "gpt-6.2-sol-max": 1755,
+    "gpt-6.2-sol": 1755,
+    "qwen4-max-xhigh": 1752,
+    "qwen4-max": 1752,
+    "gpt-6.1-sol-max": 1745,
+    "gpt-6.1-sol": 1745,
+    "claude-fable-5.1-max": 1742,
+    "claude-fable-5.1": 1742,
+    "muse-wonder-full-max": 1724,
+    "claude-sonnet-5.5-high": 1715,
+    "gemini-4-hydrogen-xhigh": 1701,
+    "gemini-4-hydrogen": 1701,
     "claude-opus-5-max": 1692,
     "claude-opus-5": 1692,
-    "gpt-6-sol-max": 1687,
-    "gpt-6-sol": 1687,
-    "gemini-4-argon-high": 1678,
-    "gemini-4-argon": 1678,
-    "qwen3.8-max": 1672,
-    "qwen3.8-max-0902": 1672,
-    "claude-opus-5-high": 1658,
-    "muse-spark-1.3-max": 1656,
-    "kimi-k3-max": 1655,
-    "kimi-k3": 1655,
-    "grok-4.7-xhigh": 1638,
-    "grok-4.7": 1638,
-    "mimo-v2.6-flash": 1636,
-    "qwen3.8-flash-next": 1632,
-    "hy4": 1632,
-    "mimo-v2.6-pro": 1630,
-    "muse-spark-1.3-xhigh": 1626
+    "gpt-6.1-terra-max": 1686,
+    "gpt-6.1-terra": 1686,
+    "kimi-k3.1-pro-max": 1683,
+    "kimi-k3.1-pro": 1683,
+    "gemini-4-argon-high": 1682,
+    "gemini-4-argon": 1682,
+    "gpt-6-sol-max": 1675,
+    "gpt-6-sol": 1675,
+    "qwen3.8-max-0902": 1673,
+    "qwen3.8-max": 1671,
+    "deepseek-v4.1-flash-20261017-max": 1659,
+    "deepseek-v4.1-flash": 1659,
+    "kimi-k3-max": 1658,
+    "kimi-k3": 1658,
+    "claude-opus-5-high": 1656,
+    "muse-spark-1.3-max": 1652,
+    "hy4": 1650,
+    "muse-wonder-max": 1646,
+    "inkling-2-small": 1642,
+    "grok-4.7-xhigh": 1639,
+    "grok-4.7": 1639,
+    "mimo-v2.6-flash": 1637,
+    "qwen3.8-flash-next": 1626,
+    "claude-fable-5-high": 1626,
+    "claude-fable-5": 1626,
+    "glm-5.3-max": 1623,
+    "mimo-v2.6-pro": 1622,
+    "deepseek-v4.1-flash-20260910-max": 1621,
+    "muse-spark-1.3-xhigh": 1620,
+    "grok-4.6-high": 1618,
+    "grok-4.6": 1618,
+    "gpt-5.6-sol-xhigh-codex-harness": 1616,
+    "glm-5.3-flash": 1611,
+    "u2-flash": 1609,
+    "muse-ember-max": 1607,
+    "glm-5.2-max": 1607,
+    "claude-haiku-5.5-high": 1595,
+    "claude-haiku-5.5": 1595,
+    "qwen3.8-27b": 1590,
+    "gemini-3.7-flash-high": 1589,
+    "gemini-3.7-flash": 1589,
+    "gemini-3.8-flash-high": 1584,
+    "gemini-3.8-flash": 1584,
+    "deepseek-v4-flash-high": 1582,
+    "deepseek-v4-flash": 1582,
+    "minimax-m3.1-flash": 1582,
+    "deepseek-v4-pro-high": 1581,
+    "gpt-6-luna-max": 1579,
+    "gpt-6-luna": 1579,
+    "mistral-large-4": 1572,
+    "step-5-preview-high": 1570,
+    "inkling-2-mini": 1560,
+    "claude-opus-4.7-high": 1557,
+    "claude-opus-4.7": 1557,
+    "claude-opus-4.8-high": 1556,
+    "claude-opus-4.8": 1556,
+    "grok-4.5": 1552,
+    "claude-opus-4.6-high": 1546,
+    "claude-opus-4.6": 1546,
+    "muse-spark-1.1": 1541,
+    "claude-sonnet-5-high": 1539,
+    "claude-sonnet-5": 1539,
+    "gemini-3.6-flash-high": 1538,
+    "gemini-3.6-flash": 1538,
+    "muse-spark-1.2-xhigh": 1533,
+    "muse-spark-open-max": 1527,
+    "claude-sonnet-4.6": 1522,
+    "gpt-5.6-terra-xhigh-codex-harness": 1520,
+    "gpt-5.6-luna-xhigh-codex-harness": 1519,
+    "seed2.1-pro": 1518,
+    "qwen3.7-max": 1516,
+    "gpt-5.5-xhigh-codex-harness": 1513,
+    "kimi-k2.6": 1509,
+    "glm-5.1": 1508,
+    "hy3": 1506,
+    "gemini-3.5-flash-high": 1500,
+    "gemini-3.5-flash": 1500,
+    "claude-opus-4.5-high-32k": 1494,
+    "gemini-3.5-flash-medium": 1490,
+    "gpt-5.5-high-codex-harness": 1487,
+    "spark-x2.6": 1485,
+    "minimax-m3": 1484,
+    "qwen3.6-max": 1481,
+    "mimo-v2.5-pro": 1479,
+    "kimi-k2.7-code": 1475,
+    "claude-opus-4.5": 1469,
+    "deepseek-v4-pro-preview-high": 1464,
+    "deepseek-v4-pro": 1464,
+    "qwen3.6-plus": 1462,
+    "gpt-5.4-high-codex-harness": 1462,
+    "gpt-5.5-codex-harness": 1456,
+    "gemini-3.1-pro": 1446,
+    "gpt-5.4-medium-codex-harness": 1442,
+    "gemini-3-pro": 1441,
+    "gemini-3-flash": 1440,
+    "mimo-v2.5": 1438,
+    "beam-1.0-501b-a23b": 1437,
+    "kimi-k2.5-thinking": 1436,
+    "glm-4.7": 1436,
+    "mimo-v2-pro": 1435,
+    "glm-5": 1435,
+    "gemini-3.5-flash-lite": 1434,
+    "deepseek-v4-flash-preview-high": 1431,
+    "gpt-5.2": 1419,
+    "gpt-5-medium": 1418,
+    "gpt-5": 1418,
+    "inkling": 1414,
+    "inkling-small": 1407,
+    "gpt-5.3-codex-codex-harness": 1406,
+    "kimi-k2.5-instant": 1406,
+    "nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4": 1400,
+    "qwen3.5-397b-a17b": 1400,
+    "gpt-5.4": 1400,
+    "gpt-5.4-mini-high": 1398,
+    "gpt-5.4-mini": 1398,
+    "minimax-m2.7": 1398,
+    "gpt-5.1-medium": 1397,
+    "gpt-5.1": 1397,
+    "claude-sonnet-4.5-high-32k": 1394,
+    "claude-opus-4.1": 1390,
+    "minimax-m2.5": 1386,
+    "claude-sonnet-4.5": 1385,
+    "gemini-3-flash-minimal": 1384,
+    "minimax-m2.1": 1384,
+    "grok-4.20-beta-reasoning-0309": 1376,
+    "gemma-4-31b": 1371,
+    "solar-pro-4": 1369,
+    "deepseek-v3.2-thinking": 1363,
+    "qwen3.5-122b-a10b": 1360,
+    "gemma-4-26b-a4b": 1358,
+    "grok-4.3": 1357,
+    "qwen3.5-27b": 1357,
+    "muse-glimmer": 1353,
+    "laguna-m.1": 1350,
+    "glm-4.6": 1342,
+    "gpt-5.2-codex": 1339,
+    "gpt-5.1-codex": 1338,
+    "mimo-v2-flash-non-thinking": 1332,
+    "claude-haiku-4.5": 1330,
+    "deepseek-v3.2": 1326,
+    "kimi-k2-thinking-turbo": 1322,
+    "laguna-xs.2": 1304,
+    "minimax-m2": 1299,
+    "mimo-v2-flash-thinking": 1291,
+    "qwen3-coder-480b-a35b-instruct": 1274,
+    "mistral-medium-3.5": 1263,
+    "mistral-medium-3-5": 1263,
+    "kat-coder-pro-v1": 1257,
+    "gemini-3.1-flash-lite": 1256,
+    "qwen3.5-35b-a3b": 1253,
+    "qwen3.5-flash": 1243,
+    "gpt-5.1-codex-mini": 1243,
+    "grok-4.1-fast-reasoning": 1242,
+    "trinity-large-thinking": 1237,
+    "mistral-large-3": 1233,
+    "gemini-2.5-pro": 1226,
+    "grok-4.1-thinking": 1216,
+    "devstral-2": 1196,
+    "granite-4.1-8b": 1193,
+    "mercury-2": 1170,
+    "grok-code-fast-1": 1166,
+    "grok-4-fast-reasoning": 1158,
+    "devstral-medium-2507": 1072
   },
   "price": {
     "pixtral-large-2502": {
@@ -207,8 +368,8 @@
       "o": 5.0
     },
     "kimi-k3.1-pro": {
-      "i": 0.253,
-      "o": 8.8
+      "i": 0.2403,
+      "o": 8.4023
     },
     "deepseek-v4.1-flash-1017": {
       "i": 0.15,
@@ -275,8 +436,8 @@
       "o": 0.47
     },
     "deepseek-v4.1-flash": {
-      "i": 0.0498,
-      "o": 0.1992
+      "i": 0.0507,
+      "o": 0.2028
     },
     "gpt-6-astra": {
       "i": 10.0,
@@ -303,12 +464,12 @@
       "o": 0.47
     },
     "deepseek-v4-flash-vision": {
-      "i": 0.2156,
-      "o": 0.6468
+      "i": 0.44,
+      "o": 1.32
     },
     "qwen3.8-27b": {
-      "i": 0.06,
-      "o": 1.96
+      "i": 0.035,
+      "o": 1.5
     },
     "gemini-3.7-flash": {
       "i": 0.75,
@@ -319,16 +480,16 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 1.32,
-      "o": 3.96
+      "i": 0.111,
+      "o": 4.44
     },
     "grok-4.6": {
       "i": 2.0,
       "o": 6.0
     },
     "deepseek-v4-flash-0731": {
-      "i": 0.0443,
-      "o": 0.3
+      "i": 0.06,
+      "o": 0.18
     },
     "qwen3.7-flash": {
       "i": 0.03,
@@ -432,7 +593,7 @@
     },
     "qwen3.6-35b-a3b": {
       "i": 0.1,
-      "o": 0.9
+      "o": 0.89
     },
     "qwen3.6-27b": {
       "i": 0.32,
@@ -447,8 +608,8 @@
       "o": 30.0
     },
     "deepseek-v4-pro": {
-      "i": 0.9,
-      "o": 1.5
+      "i": 0.5865,
+      "o": 1.5251
     },
     "deepseek-v4-flash": {
       "i": 0.09,
@@ -463,8 +624,8 @@
       "o": 25.0
     },
     "gemma-4-26b-a4b-it": {
-      "i": 0.0675,
-      "o": 0.225
+      "i": 0.0765,
+      "o": 0.255
     },
     "gemma-4-31b-it": {
       "i": 0.2,
@@ -511,8 +672,8 @@
       "o": 1.0
     },
     "qwen3.5-27b": {
-      "i": 0.195,
-      "o": 1.56
+      "i": 0.26,
+      "o": 2.6
     },
     "qwen3.5-122b-a10b": {
       "i": 0.26,
@@ -622,10 +783,6 @@
       "i": 0.25,
       "o": 2.0
     },
-    "kimi-k2-thinking": {
-      "i": 0.6,
-      "o": 2.5
-    },
     "voxtral-small-24b-2507": {
       "i": 0.1,
       "o": 0.3
@@ -670,17 +827,9 @@
       "i": 0.1,
       "o": 1.1
     },
-    "kimi-k2-0905": {
-      "i": 0.6,
-      "o": 2.5
-    },
     "deepseek-chat-v3.1": {
       "i": 0.25,
       "o": 0.95
-    },
-    "mistral-medium-3.1": {
-      "i": 0.44,
-      "o": 2.2
     },
     "gpt-5": {
       "i": 1.25,
@@ -695,12 +844,12 @@
       "o": 0.4
     },
     "gpt-oss-120b": {
-      "i": 0.09,
-      "o": 0.36
+      "i": 0.05,
+      "o": 0.25
     },
     "gpt-oss-20b": {
-      "i": 0.017,
-      "o": 0.085
+      "i": 0.03,
+      "o": 0.13
     },
     "claude-opus-4.1": {
       "i": 15.0,
@@ -734,10 +883,6 @@
       "i": 0.14,
       "o": 0.8
     },
-    "kimi-k2": {
-      "i": 0.57,
-      "o": 2.3
-    },
     "mistral-small-3.2-24b-instruct": {
       "i": 0.075,
       "o": 0.2
@@ -757,10 +902,6 @@
     "deepseek-r1-0528": {
       "i": 0.571,
       "o": 2.286
-    },
-    "mistral-medium-3": {
-      "i": 0.44,
-      "o": 2.2
     },
     "llama-guard-4-12b": {
       "i": 0.18,
@@ -811,8 +952,8 @@
       "o": 0.555
     },
     "gemma-3-4b-it": {
-      "i": 0.05,
-      "o": 0.1
+      "i": 0.04,
+      "o": 0.05
     },
     "gemma-3-12b-it": {
       "i": 0.05,
@@ -824,7 +965,7 @@
     },
     "gemma-3-27b-it": {
       "i": 0.08,
-      "o": 0.45
+      "o": 0.16
     },
     "mistral-saba": {
       "i": 0.2,
@@ -887,8 +1028,8 @@
       "o": 0.72
     },
     "llama-3.1-8b-instruct": {
-      "i": 0.02,
-      "o": 0.04
+      "i": 0.05,
+      "o": 0.08
     },
     "mistral-nemo": {
       "i": 0.029,
