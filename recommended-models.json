@@ -7,14 +7,14 @@
       "def": "anthropic/claude-sonnet-5.5",
       "models": [
         "anthropic/claude-sonnet-5.5",
-        "google/gemini-2.5-pro",
+        "anthropic/claude-haiku-5.5",
         "openai/gpt-5-mini",
         "deepseek/deepseek-v4.1-flash"
       ]
     }
   },
   "image": {
-    "_notes": "MANUAL CURATION \u00e2\u20ac\u201d this block is never overwritten by the auto-updater. Edit freely. 'default' = model selected on first launch (must match an id below). 'rank' = display order in the picker (1 = top, higher = lower). Leave gaps between ranks (10,20,30) so you can insert models later without renumbering everything. 'experimental' = shown with a warning badge.",
+    "_notes": "MANUAL CURATION: this block is never overwritten by the auto-updater. Edit freely. 'default' = model selected on first launch (must match an id below). 'rank' = display order in the picker (1 = top, higher = lower). Leave gaps between ranks (10,20,30) so you can insert models later without renumbering everything. 'experimental' = shown with a warning badge.",
     "default": "google/gemini-3.1-flash-image-preview",
     "models": [
       {
