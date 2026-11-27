@@ -114,15 +114,15 @@
     ],
     "fast": [
       "mistralai/mistral-nemo",
-      "google/gemma-3-4b-it",
       "openai/gpt-oss-20b",
       "qwen/qwen3.7-flash",
-      "cohere/command-r7b-12-2024",
       "meta-llama/llama-3.1-8b-instruct",
       "mistralai/mistral-small-24b-instruct-2501",
+      "google/gemma-3-4b-it",
+      "cohere/command-r7b-12-2024",
       "mistralai/ministral-3b-2512",
-      "deepseek/deepseek-v4-flash-0731",
-      "qwen/qwen3.5-flash-02-23"
+      "qwen/qwen3.5-flash-02-23",
+      "deepseek/deepseek-v4-flash-0731"
     ]
   },
   "rank": {
@@ -464,8 +464,8 @@
       "o": 0.47
     },
     "deepseek-v4-flash-vision": {
-      "i": 0.44,
-      "o": 1.32
+      "i": 0.2156,
+      "o": 0.6468
     },
     "qwen3.8-27b": {
       "i": 0.06,
@@ -480,8 +480,8 @@
       "o": 6.0
     },
     "deepseek-v4-pro-0813": {
-      "i": 0.111,
-      "o": 4.44
+      "i": 0.0999,
+      "o": 5.0
     },
     "grok-4.6": {
       "i": 2.0,
@@ -608,8 +608,8 @@
       "o": 30.0
     },
     "deepseek-v4-pro": {
-      "i": 0.8147,
-      "o": 1.5593
+      "i": 0.7758,
+      "o": 1.5712
     },
     "deepseek-v4-flash": {
       "i": 0.09,
@@ -716,8 +716,8 @@
       "o": 0.8
     },
     "kimi-k2.5": {
-      "i": 0.5,
-      "o": 2.5
+      "i": 0.6,
+      "o": 3.0
     },
     "gpt-5.2-codex": {
       "i": 1.75,
@@ -827,6 +827,10 @@
       "i": 0.1,
       "o": 1.1
     },
+    "kimi-k2-0905": {
+      "i": 0.6,
+      "o": 2.5
+    },
     "deepseek-chat-v3.1": {
       "i": 0.25,
       "o": 0.95
@@ -882,6 +886,10 @@
     "qwen3-235b-a22b-2507": {
       "i": 0.14,
       "o": 0.8
+    },
+    "kimi-k2": {
+      "i": 0.57,
+      "o": 2.3
     },
     "mistral-small-3.2-24b-instruct": {
       "i": 0.075,
@@ -952,8 +960,8 @@
       "o": 0.555
     },
     "gemma-3-4b-it": {
-      "i": 0.04,
-      "o": 0.05
+      "i": 0.05,
+      "o": 0.1
     },
     "gemma-3-12b-it": {
       "i": 0.05,
@@ -965,7 +973,7 @@
     },
     "gemma-3-27b-it": {
       "i": 0.08,
-      "o": 0.45
+      "o": 0.16
     },
     "mistral-saba": {
       "i": 0.2,
@@ -992,8 +1000,8 @@
       "o": 0.15
     },
     "llama-3.3-70b-instruct": {
-      "i": 0.71,
-      "o": 0.71
+      "i": 0.59,
+      "o": 0.79
     },
     "gpt-4o": {
       "i": 2.5,
